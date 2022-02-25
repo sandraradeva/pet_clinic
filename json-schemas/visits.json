@@ -1,0 +1,93 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "pet": {
+            "type": "object",
+            "properties": {
+              "owner": {
+                "type": "object",
+                "properties": {
+                  "firstName": {
+                    "type": "string"
+                  },
+                  "lastName": {
+                    "type": "string"
+                  },
+                  "address": {
+                    "type": "string"
+                  },
+                  "city": {
+                    "type": "string"
+                  },
+                  "telephone": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "firstName",
+                  "lastName",
+                  "address",
+                  "city",
+                  "telephone",
+                  "id"
+                ]
+              },
+              "name": {
+                "type": "string"
+              },
+              "id": {
+                "type": "integer"
+              },
+              "type": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "name",
+                  "id"
+                ]
+              },
+              "birthDate": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "owner",
+              "name",
+              "id",
+              "type",
+              "birthDate"
+            ]
+          }
+        },
+        "required": [
+          "date",
+          "description",
+          "id",
+          "pet"
+        ]
+      }
+    ]
+  }

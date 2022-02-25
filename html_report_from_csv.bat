@@ -1,0 +1,1 @@
+jmeter -g C:\Users\sradeva\Projects\FinalExam\output\csvReports\result.csv -o C:\Users\sradeva\Projects\FinalExam\output\htmlReports\report17

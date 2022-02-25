@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "firstName": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer"
+      },
+      "lastName": {
+        "type": "string"
+      },
+      "specialties": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "firstName",
+      "id",
+      "lastName",
+      "specialties"
+    ]
+  }

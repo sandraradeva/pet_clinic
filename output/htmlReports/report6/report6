@@ -1,0 +1,481 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1643381185874,13,POST /api/pettypes,201,,PET CLINIC SUITES 1-1,true,,400,1,1,13,1,0,EN719411
+1643381185887,8,GET /api/pettypes,200,,PET CLINIC SUITES 1-1,true,,24588,1,1,7,1,0,EN719411
+1643381185898,5,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-1,true,,282,1,1,0,1,0,EN719411
+1643381185903,4,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-1,true,,353,1,1,4,1,0,EN719411
+1643381185910,5,POST /api/owners,201,,PET CLINIC SUITES 1-1,true,,522,1,1,5,1,0,EN719411
+1643381185916,10,GET /api/owners,200,,PET CLINIC SUITES 1-1,true,,22504,1,1,10,1,0,EN719411
+1643381185929,5,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-1,true,,465,1,1,4,1,0,EN719411
+1643381185936,5,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-1,true,,282,1,1,0,1,0,EN719411
+1643381185942,4,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-1,true,,479,1,1,4,1,0,EN719411
+1643381185949,5,POST /api/pets,201,,PET CLINIC SUITES 1-1,true,,630,1,1,5,1,0,EN719411
+1643381185954,10,GET /api/pets,200,,PET CLINIC SUITES 1-1,true,,14911,1,1,10,1,0,EN719411
+1643381185966,6,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-1,true,,282,1,1,0,1,0,EN719411
+1643381185972,5,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-1,true,,591,1,1,5,1,0,EN719411
+1643381185980,4,POST /api/specialties,201,,PET CLINIC SUITES 1-1,true,,410,1,1,4,1,0,EN719411
+1643381185985,9,GET /api/specialties,200,,PET CLINIC SUITES 1-1,true,,38858,1,1,6,1,0,EN719411
+1643381185998,4,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-1,true,,282,1,1,0,1,0,EN719411
+1643381186003,4,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-1,true,,361,1,1,4,1,0,EN719411
+1643381186009,26,POST /api/vets,201,,PET CLINIC SUITES 1-1,true,,471,1,1,26,1,0,EN719411
+1643381186035,9,GET /api/vets,200,,PET CLINIC SUITES 1-1,true,,6731,1,1,9,1,0,EN719411
+1643381186054,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186055,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186057,4,POST /api/visits,201,,PET CLINIC SUITES 1-1,true,,714,1,1,4,1,0,EN719411
+1643381186062,6,GET /api/visits,200,,PET CLINIC SUITES 1-1,true,,7273,1,1,6,1,0,EN719411
+1643381186071,6,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-1,true,,282,1,1,0,1,0,EN719411
+1643381186077,4,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-1,true,,672,1,1,4,1,0,EN719411
+1643381186084,4,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-1,true,,236,2,2,0,1,0,EN719411
+1643381186089,11,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-1,true,,236,2,2,0,1,0,EN719411
+1643381186088,12,POST /api/pettypes,201,,PET CLINIC SUITES 1-2,true,,400,2,2,12,1,0,EN719411
+1643381186100,5,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-1,true,,236,2,2,0,1,0,EN719411
+1643381186100,8,GET /api/pettypes,200,,PET CLINIC SUITES 1-2,true,,24621,2,2,8,1,0,EN719411
+1643381186105,7,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-1,true,,236,2,2,0,1,0,EN719411
+1643381186113,4,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-2,true,,282,2,2,0,1,0,EN719411
+1643381186112,7,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,2,2,7,1,1,EN719411
+1643381186118,6,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-2,true,,353,1,1,6,1,0,EN719411
+1643381186130,5,POST /api/owners,201,,PET CLINIC SUITES 1-2,true,,522,1,1,5,1,0,EN719411
+1643381186136,11,GET /api/owners,200,,PET CLINIC SUITES 1-2,true,,22504,1,1,11,1,0,EN719411
+1643381186150,5,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-2,true,,465,1,1,5,1,0,EN719411
+1643381186157,7,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-2,true,,282,1,1,0,1,0,EN719411
+1643381186164,5,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-2,true,,479,1,1,5,1,0,EN719411
+1643381186171,8,POST /api/pets,201,,PET CLINIC SUITES 1-2,true,,630,1,1,8,1,0,EN719411
+1643381186179,10,GET /api/pets,200,,PET CLINIC SUITES 1-2,true,,14911,1,1,10,1,0,EN719411
+1643381186192,5,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-2,true,,282,1,1,0,1,0,EN719411
+1643381186197,4,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-2,true,,591,1,1,4,1,0,EN719411
+1643381186204,4,POST /api/specialties,201,,PET CLINIC SUITES 1-2,true,,410,1,1,4,1,0,EN719411
+1643381186208,8,GET /api/specialties,200,,PET CLINIC SUITES 1-2,true,,38899,1,1,7,1,0,EN719411
+1643381186221,5,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-2,true,,282,1,1,0,1,0,EN719411
+1643381186226,5,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-2,true,,361,1,1,5,1,0,EN719411
+1643381186234,5,POST /api/vets,201,,PET CLINIC SUITES 1-2,true,,471,1,1,5,1,0,EN719411
+1643381186239,7,GET /api/vets,200,,PET CLINIC SUITES 1-2,true,,6846,1,1,7,1,0,EN719411
+1643381186252,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-2,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186252,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-2,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186253,5,POST /api/visits,201,,PET CLINIC SUITES 1-2,true,,714,1,1,5,1,0,EN719411
+1643381186258,7,GET /api/visits,200,,PET CLINIC SUITES 1-2,true,,7273,1,1,7,1,0,EN719411
+1643381186268,5,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-2,true,,282,1,1,0,1,0,EN719411
+1643381186274,12,POST /api/pettypes,201,,PET CLINIC SUITES 1-3,true,,400,2,2,12,1,0,EN719411
+1643381186274,9,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-2,true,,672,2,2,9,1,0,EN719411
+1643381186286,5,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-2,true,,236,2,2,0,1,0,EN719411
+1643381186286,7,GET /api/pettypes,200,,PET CLINIC SUITES 1-3,true,,24621,2,2,7,1,0,EN719411
+1643381186292,5,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-2,true,,236,2,2,0,1,0,EN719411
+1643381186297,4,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-2,true,,236,2,2,0,1,0,EN719411
+1643381186296,5,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-3,true,,282,2,2,0,1,0,EN719411
+1643381186301,6,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-2,true,,236,2,2,0,1,0,EN719411
+1643381186301,5,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-3,true,,353,2,2,5,1,0,EN719411
+1643381186309,4,POST /api/owners,201,,PET CLINIC SUITES 1-3,true,,522,2,2,4,1,0,EN719411
+1643381186307,6,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-2,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,2,2,6,1,1,EN719411
+1643381186314,17,GET /api/owners,200,,PET CLINIC SUITES 1-3,true,,22504,1,1,17,1,0,EN719411
+1643381186334,4,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-3,true,,465,1,1,4,1,0,EN719411
+1643381186341,5,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-3,true,,282,1,1,0,1,0,EN719411
+1643381186346,4,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-3,true,,479,1,1,4,1,0,EN719411
+1643381186352,5,POST /api/pets,201,,PET CLINIC SUITES 1-3,true,,630,1,1,5,1,0,EN719411
+1643381186357,16,GET /api/pets,200,,PET CLINIC SUITES 1-3,true,,14911,1,1,16,1,0,EN719411
+1643381186376,5,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-3,true,,282,1,1,0,1,0,EN719411
+1643381186381,5,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-3,true,,591,1,1,5,1,0,EN719411
+1643381186388,7,POST /api/specialties,201,,PET CLINIC SUITES 1-3,true,,410,1,1,7,1,0,EN719411
+1643381186395,13,GET /api/specialties,200,,PET CLINIC SUITES 1-3,true,,38940,1,1,12,1,0,EN719411
+1643381186412,5,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-3,true,,282,1,1,0,1,0,EN719411
+1643381186417,4,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-3,true,,361,1,1,4,1,0,EN719411
+1643381186424,5,POST /api/vets,201,,PET CLINIC SUITES 1-3,true,,471,1,1,5,1,0,EN719411
+1643381186430,7,GET /api/vets,200,,PET CLINIC SUITES 1-3,true,,6961,1,1,7,1,0,EN719411
+1643381186443,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-3,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186444,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-3,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186445,6,POST /api/visits,201,,PET CLINIC SUITES 1-3,true,,714,1,1,6,1,0,EN719411
+1643381186451,11,GET /api/visits,200,,PET CLINIC SUITES 1-3,true,,7273,1,1,11,1,0,EN719411
+1643381186465,6,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-3,true,,282,1,1,0,1,0,EN719411
+1643381186471,5,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-3,true,,672,2,2,5,1,0,EN719411
+1643381186477,15,POST /api/pettypes,201,,PET CLINIC SUITES 1-4,true,,400,2,2,15,1,0,EN719411
+1643381186481,11,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-3,true,,236,2,2,0,1,0,EN719411
+1643381186492,6,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-3,true,,236,2,2,0,1,0,EN719411
+1643381186492,7,GET /api/pettypes,200,,PET CLINIC SUITES 1-4,true,,24621,2,2,6,1,0,EN719411
+1643381186499,4,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-3,true,,236,2,2,0,1,0,EN719411
+1643381186504,6,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-4,true,,282,2,2,0,1,0,EN719411
+1643381186504,6,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-3,true,,236,2,2,0,1,0,EN719411
+1643381186510,4,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-4,true,,353,2,2,4,1,0,EN719411
+1643381186510,7,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-3,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,2,2,6,1,1,EN719411
+1643381186518,9,POST /api/owners,201,,PET CLINIC SUITES 1-4,true,,522,1,1,9,1,0,EN719411
+1643381186527,12,GET /api/owners,200,,PET CLINIC SUITES 1-4,true,,22504,1,1,12,1,0,EN719411
+1643381186542,5,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-4,true,,465,1,1,5,1,0,EN719411
+1643381186550,6,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-4,true,,282,1,1,0,1,0,EN719411
+1643381186557,4,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-4,true,,479,1,1,4,1,0,EN719411
+1643381186563,4,POST /api/pets,201,,PET CLINIC SUITES 1-4,true,,630,1,1,4,1,0,EN719411
+1643381186568,8,GET /api/pets,200,,PET CLINIC SUITES 1-4,true,,14911,1,1,8,1,0,EN719411
+1643381186579,5,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-4,true,,282,1,1,0,1,0,EN719411
+1643381186585,4,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-4,true,,591,1,1,4,1,0,EN719411
+1643381186592,4,POST /api/specialties,201,,PET CLINIC SUITES 1-4,true,,410,1,1,4,1,0,EN719411
+1643381186596,8,GET /api/specialties,200,,PET CLINIC SUITES 1-4,true,,38981,1,1,6,1,0,EN719411
+1643381186608,5,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-4,true,,282,1,1,0,1,0,EN719411
+1643381186613,4,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-4,true,,361,1,1,4,1,0,EN719411
+1643381186619,5,POST /api/vets,201,,PET CLINIC SUITES 1-4,true,,471,1,1,5,1,0,EN719411
+1643381186625,7,GET /api/vets,200,,PET CLINIC SUITES 1-4,true,,7076,1,1,7,1,0,EN719411
+1643381186636,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-4,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186637,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-4,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186639,4,POST /api/visits,201,,PET CLINIC SUITES 1-4,true,,714,1,1,4,1,0,EN719411
+1643381186644,7,GET /api/visits,200,,PET CLINIC SUITES 1-4,true,,7273,1,1,7,1,0,EN719411
+1643381186654,5,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-4,true,,282,1,1,0,1,0,EN719411
+1643381186659,4,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-4,true,,672,1,1,4,1,0,EN719411
+1643381186666,4,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-4,true,,236,1,1,0,1,0,EN719411
+1643381186670,6,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-4,true,,236,1,1,0,1,0,EN719411
+1643381186676,3,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-4,true,,236,1,1,0,1,0,EN719411
+1643381186680,5,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-4,true,,236,1,1,0,1,0,EN719411
+1643381186685,6,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-4,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,2,2,6,1,1,EN719411
+1643381186692,11,POST /api/pettypes,201,,PET CLINIC SUITES 1-5,true,,400,1,1,11,1,0,EN719411
+1643381186703,11,GET /api/pettypes,200,,PET CLINIC SUITES 1-5,true,,24588,1,1,8,1,0,EN719411
+1643381186717,5,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-5,true,,282,1,1,0,1,0,EN719411
+1643381186722,4,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-5,true,,353,1,1,4,1,0,EN719411
+1643381186728,4,POST /api/owners,201,,PET CLINIC SUITES 1-5,true,,522,1,1,4,1,0,EN719411
+1643381186733,11,GET /api/owners,200,,PET CLINIC SUITES 1-5,true,,22504,1,1,10,1,0,EN719411
+1643381186747,4,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-5,true,,465,1,1,4,1,0,EN719411
+1643381186753,6,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-5,true,,282,1,1,0,1,0,EN719411
+1643381186759,4,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-5,true,,479,1,1,4,1,0,EN719411
+1643381186765,5,POST /api/pets,201,,PET CLINIC SUITES 1-5,true,,630,1,1,5,1,0,EN719411
+1643381186770,9,GET /api/pets,200,,PET CLINIC SUITES 1-5,true,,14911,1,1,9,1,0,EN719411
+1643381186781,5,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-5,true,,282,1,1,0,1,0,EN719411
+1643381186787,4,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-5,true,,591,1,1,4,1,0,EN719411
+1643381186793,4,POST /api/specialties,201,,PET CLINIC SUITES 1-5,true,,410,1,1,4,1,0,EN719411
+1643381186797,9,GET /api/specialties,200,,PET CLINIC SUITES 1-5,true,,39022,1,1,8,1,0,EN719411
+1643381186810,5,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-5,true,,282,1,1,0,1,0,EN719411
+1643381186815,4,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-5,true,,361,1,1,4,1,0,EN719411
+1643381186822,6,POST /api/vets,201,,PET CLINIC SUITES 1-5,true,,471,1,1,6,1,0,EN719411
+1643381186828,7,GET /api/vets,200,,PET CLINIC SUITES 1-5,true,,7191,1,1,7,1,0,EN719411
+1643381186840,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-5,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186841,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-5,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,1,1,0,1,1,EN719411
+1643381186842,5,POST /api/visits,201,,PET CLINIC SUITES 1-5,true,,714,1,1,5,1,0,EN719411
+1643381186848,7,GET /api/visits,200,,PET CLINIC SUITES 1-5,true,,7273,1,1,7,1,0,EN719411
+1643381186858,5,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-5,true,,282,1,1,0,1,0,EN719411
+1643381186864,4,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-5,true,,672,1,1,4,1,0,EN719411
+1643381186870,6,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-5,true,,236,1,1,0,1,0,EN719411
+1643381186876,6,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-5,true,,236,1,1,0,1,0,EN719411
+1643381186882,5,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-5,true,,236,1,1,0,1,0,EN719411
+1643381186887,6,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-5,true,,236,1,1,0,1,0,EN719411
+1643381186894,7,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-5,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,1,1,6,1,1,EN719411
+1643381237311,69,POST /api/pettypes,201,,PET CLINIC SUITES 1-1,true,,400,1,1,64,1,0,EN719411
+1643381237392,8,POST /api/pettypes,201,,PET CLINIC SUITES 1-2,true,,400,2,2,8,1,0,EN719411
+1643381237595,8,POST /api/pettypes,201,,PET CLINIC SUITES 1-3,true,,400,3,3,7,1,0,EN719411
+1643381237779,10,POST /api/pettypes,201,,PET CLINIC SUITES 1-4,true,,400,4,4,10,1,0,EN719411
+1643381238025,8,POST /api/pettypes,201,,PET CLINIC SUITES 1-5,true,,400,5,5,8,1,0,EN719411
+1643381237388,7,GET /api/pettypes,200,,PET CLINIC SUITES 1-1,true,,24588,2,2,6,1,0,EN719411
+1643381238034,9,GET /api/pettypes,200,,PET CLINIC SUITES 1-5,true,,24688,5,5,8,1,0,EN719411
+1643381237790,8,GET /api/pettypes,200,,PET CLINIC SUITES 1-4,true,,24663,4,4,7,1,0,EN719411
+1643381237402,7,GET /api/pettypes,200,,PET CLINIC SUITES 1-2,true,,24613,2,2,6,1,0,EN719411
+1643381237604,6,GET /api/pettypes,200,,PET CLINIC SUITES 1-3,true,,24638,3,3,6,1,0,EN719411
+1643381238129,6,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-1,true,,282,5,5,0,1,0,EN719411
+1643381238129,6,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-3,true,,282,5,5,0,1,0,EN719411
+1643381238129,6,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-5,true,,282,5,5,0,1,0,EN719411
+1643381238129,6,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-4,true,,282,5,5,0,1,0,EN719411
+1643381238129,7,PUT /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-2,true,,282,5,5,0,1,0,EN719411
+1643381238137,6,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-2,true,,353,5,5,5,1,0,EN719411
+1643381238137,6,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-5,true,,353,5,5,6,1,0,EN719411
+1643381238137,6,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-1,true,,353,5,5,5,1,0,EN719411
+1643381238137,6,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-4,true,,353,5,5,5,1,0,EN719411
+1643381238137,6,GET /api/pettypes/{petTypeId},200,,PET CLINIC SUITES 1-3,true,,353,5,5,5,1,0,EN719411
+1643381238171,7,POST /api/owners,201,,PET CLINIC SUITES 1-3,true,,522,5,5,7,1,0,EN719411
+1643381238171,8,POST /api/owners,201,,PET CLINIC SUITES 1-1,true,,522,5,5,8,1,0,EN719411
+1643381238170,9,POST /api/owners,201,,PET CLINIC SUITES 1-4,true,,522,5,5,9,1,0,EN719411
+1643381238169,10,POST /api/owners,201,,PET CLINIC SUITES 1-2,true,,522,5,5,10,1,0,EN719411
+1643381238173,8,POST /api/owners,201,,PET CLINIC SUITES 1-5,true,,522,5,5,7,1,0,EN719411
+1643381238181,21,GET /api/owners,200,,PET CLINIC SUITES 1-4,true,,23076,5,5,19,1,0,EN719411
+1643381238180,20,GET /api/owners,200,,PET CLINIC SUITES 1-3,true,,23076,5,5,18,1,0,EN719411
+1643381238182,20,GET /api/owners,200,,PET CLINIC SUITES 1-5,true,,23076,5,5,16,1,0,EN719411
+1643381238182,20,GET /api/owners,200,,PET CLINIC SUITES 1-2,true,,23076,5,5,19,1,0,EN719411
+1643381238181,16,GET /api/owners,200,,PET CLINIC SUITES 1-1,true,,23076,5,5,16,1,0,EN719411
+1643381238228,7,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-2,true,,465,5,5,7,1,0,EN719411
+1643381238228,7,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-5,true,,465,5,5,6,1,0,EN719411
+1643381238228,7,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-3,true,,465,5,5,7,1,0,EN719411
+1643381238228,7,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-1,true,,465,5,5,7,1,0,EN719411
+1643381238228,7,GET /api/owners/*/lastname/{lastName},200,,PET CLINIC SUITES 1-4,true,,465,5,5,7,1,0,EN719411
+1643381238255,8,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-2,true,,282,5,5,0,1,0,EN719411
+1643381238255,8,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-1,true,,282,5,5,0,1,0,EN719411
+1643381238256,7,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-4,true,,282,5,5,0,1,0,EN719411
+1643381238255,8,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-3,true,,282,5,5,0,1,0,EN719411
+1643381238256,8,PUT /api/owners/{ownerId},204,,PET CLINIC SUITES 1-5,true,,282,5,5,0,1,0,EN719411
+1643381238264,7,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-2,true,,479,5,5,7,1,0,EN719411
+1643381238265,6,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-5,true,,479,5,5,6,1,0,EN719411
+1643381238265,6,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-1,true,,479,5,5,6,1,0,EN719411
+1643381238265,6,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-3,true,,479,5,5,6,1,0,EN719411
+1643381238264,7,GET /api/owners/{ownerId},200,,PET CLINIC SUITES 1-4,true,,479,5,5,7,1,0,EN719411
+1643381238288,9,POST /api/pets,201,,PET CLINIC SUITES 1-2,true,,630,5,5,8,1,0,EN719411
+1643381238289,9,POST /api/pets,201,,PET CLINIC SUITES 1-1,true,,630,5,5,9,1,0,EN719411
+1643381238289,9,POST /api/pets,201,,PET CLINIC SUITES 1-5,true,,630,5,5,9,1,0,EN719411
+1643381238290,8,POST /api/pets,201,,PET CLINIC SUITES 1-3,true,,630,5,5,8,1,0,EN719411
+1643381238292,8,POST /api/pets,201,,PET CLINIC SUITES 1-4,true,,630,5,5,8,1,0,EN719411
+1643381238299,13,GET /api/pets,200,,PET CLINIC SUITES 1-2,true,,15959,5,5,13,1,0,EN719411
+1643381238299,14,GET /api/pets,200,,PET CLINIC SUITES 1-5,true,,15959,5,5,13,1,0,EN719411
+1643381238299,14,GET /api/pets,200,,PET CLINIC SUITES 1-1,true,,15959,5,5,14,1,0,EN719411
+1643381238299,13,GET /api/pets,200,,PET CLINIC SUITES 1-3,true,,15959,5,5,13,1,0,EN719411
+1643381238301,12,GET /api/pets,200,,PET CLINIC SUITES 1-4,true,,15959,5,5,12,1,0,EN719411
+1643381238338,8,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-1,true,,282,5,5,0,1,0,EN719411
+1643381238338,8,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-5,true,,282,5,5,0,1,0,EN719411
+1643381238338,8,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-3,true,,282,5,5,0,1,0,EN719411
+1643381238338,8,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-4,true,,282,5,5,0,1,0,EN719411
+1643381238338,8,PUT /api/pets/{petId},204,,PET CLINIC SUITES 1-2,true,,282,5,5,0,1,0,EN719411
+1643381238348,6,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-1,true,,591,5,5,6,1,0,EN719411
+1643381238348,6,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-2,true,,591,5,5,6,1,0,EN719411
+1643381238348,6,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-4,true,,591,5,5,6,1,0,EN719411
+1643381238348,6,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-5,true,,591,5,5,6,1,0,EN719411
+1643381238368,7,POST /api/specialties,201,,PET CLINIC SUITES 1-5,true,,410,5,5,6,1,0,EN719411
+1643381238368,7,POST /api/specialties,201,,PET CLINIC SUITES 1-2,true,,410,5,5,6,1,0,EN719411
+1643381238368,7,POST /api/specialties,201,,PET CLINIC SUITES 1-4,true,,410,5,5,6,1,0,EN719411
+1643381238368,7,POST /api/specialties,201,,PET CLINIC SUITES 1-1,true,,410,5,5,6,1,0,EN719411
+1643381238376,13,GET /api/specialties,200,,PET CLINIC SUITES 1-5,true,,39162,5,5,11,1,0,EN719411
+1643381238376,14,GET /api/specialties,200,,PET CLINIC SUITES 1-1,true,,39162,5,5,11,1,0,EN719411
+1643381238376,14,GET /api/specialties,200,,PET CLINIC SUITES 1-2,true,,39162,5,5,11,1,0,EN719411
+1643381238376,14,GET /api/specialties,200,,PET CLINIC SUITES 1-4,true,,39162,5,5,11,1,0,EN719411
+1643381238408,7,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-5,true,,282,5,5,0,1,0,EN719411
+1643381238410,6,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-1,true,,282,5,5,0,1,0,EN719411
+1643381238415,5,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-2,true,,282,5,5,0,1,0,EN719411
+1643381238415,7,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-4,true,,282,5,5,0,1,0,EN719411
+1643381238416,4,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-5,true,,361,5,5,4,1,0,EN719411
+1643381238417,7,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-1,true,,361,5,5,6,1,0,EN719411
+1643381238422,6,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-2,true,,361,5,5,6,1,0,EN719411
+1643381238424,6,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-4,true,,361,5,5,6,1,0,EN719411
+1643381238432,9,POST /api/vets,201,,PET CLINIC SUITES 1-5,true,,471,5,5,9,1,0,EN719411
+1643381238434,7,POST /api/vets,201,,PET CLINIC SUITES 1-1,true,,471,5,5,7,1,0,EN719411
+1643381238438,10,POST /api/vets,201,,PET CLINIC SUITES 1-2,true,,471,5,5,9,1,0,EN719411
+1643381238442,8,POST /api/vets,201,,PET CLINIC SUITES 1-4,true,,471,5,5,8,1,0,EN719411
+1643381238348,6,GET /api/pets/{petId},200,,PET CLINIC SUITES 1-3,true,,591,5,5,6,1,0,EN719411
+1643381238483,6,POST /api/specialties,201,,PET CLINIC SUITES 1-3,true,,410,5,5,6,1,0,EN719411
+1643381238491,9,GET /api/specialties,200,,PET CLINIC SUITES 1-3,true,,39203,5,5,8,1,0,EN719411
+1643381238451,11,GET /api/vets,200,,PET CLINIC SUITES 1-4,true,,7651,5,5,11,1,0,EN719411
+1643381238442,13,GET /api/vets,200,,PET CLINIC SUITES 1-5,true,,7536,5,5,12,1,0,EN719411
+1643381238449,10,GET /api/vets,200,,PET CLINIC SUITES 1-2,true,,7651,5,5,10,1,0,EN719411
+1643381238442,13,GET /api/vets,200,,PET CLINIC SUITES 1-1,true,,7536,5,5,12,1,0,EN719411
+1643381238518,7,PUT /api/specialties/{specialtyId},204,,PET CLINIC SUITES 1-3,true,,282,5,5,0,1,0,EN719411
+1643381238523,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-4,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238523,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-5,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238523,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-2,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238523,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238527,7,GET /api/specialties/{specialtyId},200,,PET CLINIC SUITES 1-3,true,,361,5,5,6,1,0,EN719411
+1643381238541,7,POST /api/vets,201,,PET CLINIC SUITES 1-3,true,,471,5,5,7,1,0,EN719411
+1643381238527,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-2,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238527,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-5,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238527,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-4,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238527,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238565,8,POST /api/visits,201,,PET CLINIC SUITES 1-2,true,,714,5,5,8,1,0,EN719411
+1643381238565,8,POST /api/visits,201,,PET CLINIC SUITES 1-4,true,,714,5,5,8,1,0,EN719411
+1643381238566,7,POST /api/visits,201,,PET CLINIC SUITES 1-5,true,,714,5,5,7,1,0,EN719411
+1643381238566,7,POST /api/visits,201,,PET CLINIC SUITES 1-1,true,,714,5,5,7,1,0,EN719411
+1643381238549,9,GET /api/vets,200,,PET CLINIC SUITES 1-3,true,,7766,5,5,9,1,0,EN719411
+1643381238578,0,PUT /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-3,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238580,0,GET /api/vets/{vetId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: http://localhost:9966/petclinic/api/vets/${vetId},PET CLINIC SUITES 1-3,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1200,5,5,0,1,1,EN719411
+1643381238588,8,POST /api/visits,201,,PET CLINIC SUITES 1-3,true,,714,5,5,8,1,0,EN719411
+1643381238576,15,GET /api/visits,200,,PET CLINIC SUITES 1-5,true,,8302,5,5,14,1,0,EN719411
+1643381238576,14,GET /api/visits,200,,PET CLINIC SUITES 1-4,false,"Value expected to be 'Profilactic winter checks 4834', but found 'Profilactic winter checks 5833'",8302,5,5,14,1,1,EN719411
+1643381238576,15,GET /api/visits,200,,PET CLINIC SUITES 1-2,false,"Value expected to be 'Profilactic winter checks 5283', but found 'Profilactic winter checks 5833'",8302,5,5,14,1,1,EN719411
+1643381238576,14,GET /api/visits,200,,PET CLINIC SUITES 1-1,false,"Value expected to be 'Profilactic winter checks 7446', but found 'Profilactic winter checks 5833'",8302,5,5,14,1,1,EN719411
+1643381238605,8,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-2,true,,282,5,5,0,1,0,EN719411
+1643381238605,8,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-1,true,,282,5,5,0,1,0,EN719411
+1643381238605,8,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-5,true,,282,5,5,0,1,0,EN719411
+1643381238605,8,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-4,true,,282,5,5,0,1,0,EN719411
+1643381238598,15,GET /api/visits,200,,PET CLINIC SUITES 1-3,true,,8651,5,5,15,1,0,EN719411
+1643381238614,7,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-1,true,,672,5,5,7,1,0,EN719411
+1643381238614,7,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-4,true,,672,5,5,7,1,0,EN719411
+1643381238614,7,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-2,true,,672,5,5,7,1,0,EN719411
+1643381238614,7,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-5,true,,672,5,5,7,1,0,EN719411
+1643381238627,9,PUT /api/visits/{visitId},204,,PET CLINIC SUITES 1-3,true,,282,5,5,0,1,0,EN719411
+1643381238634,9,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-5,true,,236,5,5,0,1,0,EN719411
+1643381238634,9,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-1,true,,236,5,5,0,1,0,EN719411
+1643381238634,9,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-4,true,,236,5,5,0,1,0,EN719411
+1643381238634,10,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-2,true,,236,5,5,0,1,0,EN719411
+1643381238644,9,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-4,true,,236,5,5,0,1,0,EN719411
+1643381238644,9,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-5,true,,236,5,5,0,1,0,EN719411
+1643381238644,11,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-1,true,,236,5,5,0,1,0,EN719411
+1643381238637,6,GET /api/visits/{visitId},200,,PET CLINIC SUITES 1-3,true,,672,5,5,6,1,0,EN719411
+1643381238645,11,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-2,true,,236,5,5,0,1,0,EN719411
+1643381238656,9,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-5,true,,236,5,5,0,1,0,EN719411
+1643381238657,8,DELETE /api/visits/{visitId},204,,PET CLINIC SUITES 1-3,true,,236,5,5,0,1,0,EN719411
+1643381238656,9,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-4,true,,236,5,5,0,1,0,EN719411
+1643381238657,8,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-2,true,,236,5,5,0,1,0,EN719411
+1643381238658,7,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-1,true,,236,5,5,0,1,0,EN719411
+1643381238667,8,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-5,true,,236,5,5,0,1,0,EN719411
+1643381238667,8,DELETE /api/pets/{petId},204,,PET CLINIC SUITES 1-3,true,,236,5,5,0,1,0,EN719411
+1643381238667,9,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-2,true,,236,5,5,0,1,0,EN719411
+1643381238667,9,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-4,true,,236,5,5,0,1,0,EN719411
+1643381238667,9,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-1,true,,236,5,5,0,1,0,EN719411
+1643381238676,7,DELETE /api/owners/{ownerId},204,,PET CLINIC SUITES 1-3,true,,236,5,5,0,1,0,EN719411
+1643381238676,13,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-5,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,5,5,12,1,1,EN719411
+1643381238677,11,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-4,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,5,5,11,1,1,EN719411
+1643381238677,13,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,5,5,12,1,1,EN719411
+1643381238677,11,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-2,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,5,5,9,1,1,EN719411
+1643381238684,10,DELETE /api/pettypes/{petTypeId},204,,PET CLINIC SUITES 1-3,true,,236,1,1,0,1,0,EN719411
+1643381238695,6,DELETE /api/specialties/{specialtyId},400,,PET CLINIC SUITES 1-3,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,1,1,6,1,1,EN719411

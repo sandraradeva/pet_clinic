@@ -1,0 +1,82 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "pets": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "owner": {
+                "type": "integer"
+              },
+              "visits": {
+                "type": "array",
+                "items": {}
+              },
+              "name": {
+                "type": "string"
+              },
+              "id": {
+                "type": "integer"
+              },
+              "type": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "name",
+                  "id"
+                ]
+              },
+              "birthDate": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "owner",
+              "visits",
+              "name",
+              "id",
+              "type",
+              "birthDate"
+            ]
+          }
+        ]
+      },
+      "firstName": {
+        "type": "string"
+      },
+      "lastName": {
+        "type": "string"
+      },
+      "address": {
+        "type": "string"
+      },
+      "city": {
+        "type": "string"
+      },
+      "telephone": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "pets",
+      "firstName",
+      "lastName",
+      "address",
+      "city",
+      "telephone",
+      "id"
+    ]
+  }

@@ -1,0 +1,51 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1643788970595,4067,POST /api/pettypes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:9966 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[201                                                                  ]]]
+
+/",2825,1,1,0,1,1,EN719411
+1643788974710,4033,GET /api/pettypes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:9966 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2825,1,1,0,1,1,EN719411
+1643788979082,0,PUT /api/pettypes/${petTypeId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 46: http://localhost:9966/petclinic/api/pettypes/${petTypeId},PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1208,1,1,0,1,1,EN719411
+1643788979083,0,GET /api/pettypes/${petTypeId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 46: http://localhost:9966/petclinic/api/pettypes/${petTypeId},PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1208,1,1,0,1,1,EN719411
+1643788979097,4081,POST /api/owners,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:9966 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",PET CLINIC SUITES 1-1,false,Expected to find an object with property ['firstName'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2825,1,1,0,1,1,EN719411
+1643788983322,4101,GET /api/owners,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:9966 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2825,1,1,0,1,1,EN719411
+1643788987433,4060,GET /api/owners/*/lastname/Testev6205,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:9966 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2825,1,1,0,1,1,EN719411
+1643788991512,4093,PUT /api/owners/,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:9966 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",PET CLINIC SUITES 1-1,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[204                                                                  ]]]
+
+/",2825,1,1,0,1,1,EN719411

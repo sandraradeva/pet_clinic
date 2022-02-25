@@ -1,0 +1,827 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1643567361550,77,POST /api/pettypes,201,,PET CLINIC SUITES 1-1,text,true,,400,265,1,1,http://localhost:9966/petclinic/api/pettypes,68,0,49
+1643567361692,10,POST /api/pettypes,201,,PET CLINIC SUITES 1-2,text,true,,400,265,2,2,http://localhost:9966/petclinic/api/pettypes,10,0,2
+1643567361916,8,POST /api/pettypes,201,,PET CLINIC SUITES 1-3,text,true,,400,265,3,3,http://localhost:9966/petclinic/api/pettypes,8,0,2
+1643567362261,13,POST /api/pettypes,201,,PET CLINIC SUITES 1-4,text,true,,400,265,4,4,http://localhost:9966/petclinic/api/pettypes,13,0,2
+1643567362627,12,POST /api/pettypes,201,,PET CLINIC SUITES 1-5,text,true,,400,265,5,5,http://localhost:9966/petclinic/api/pettypes,12,0,2
+1643567362875,13,POST /api/pettypes,201,,PET CLINIC SUITES 1-6,text,true,,400,265,6,6,http://localhost:9966/petclinic/api/pettypes,13,0,2
+1643567361637,9,GET /api/pettypes,200,,PET CLINIC SUITES 1-1,text,true,,25230,179,1,1,http://localhost:9966/petclinic/api/pettypes,7,0,0
+1643567362889,11,GET /api/pettypes,200,,PET CLINIC SUITES 1-6,text,true,,25355,179,6,6,http://localhost:9966/petclinic/api/pettypes,10,0,0
+1643567362275,15,GET /api/pettypes,200,,PET CLINIC SUITES 1-4,text,true,,25305,179,4,4,http://localhost:9966/petclinic/api/pettypes,12,0,0
+1643567361704,9,GET /api/pettypes,200,,PET CLINIC SUITES 1-2,text,true,,25255,179,2,2,http://localhost:9966/petclinic/api/pettypes,9,0,0
+1643567362640,12,GET /api/pettypes,200,,PET CLINIC SUITES 1-5,text,true,,25330,179,5,5,http://localhost:9966/petclinic/api/pettypes,12,0,0
+1643567361926,9,GET /api/pettypes,200,,PET CLINIC SUITES 1-3,text,true,,25280,179,3,3,http://localhost:9966/petclinic/api/pettypes,9,0,0
+1643567363019,10,PUT /api/pettypes/1943,204,,PET CLINIC SUITES 1-1,text,true,,282,277,6,6,http://localhost:9966/petclinic/api/pettypes/1943,0,0,0
+1643567363020,11,PUT /api/pettypes/1943,204,,PET CLINIC SUITES 1-6,text,true,,282,277,6,6,http://localhost:9966/petclinic/api/pettypes/1943,0,0,0
+1643567363021,11,PUT /api/pettypes/1943,204,,PET CLINIC SUITES 1-4,text,true,,282,277,6,6,http://localhost:9966/petclinic/api/pettypes/1943,0,0,0
+1643567363024,9,PUT /api/pettypes/1943,204,,PET CLINIC SUITES 1-2,text,true,,282,277,6,6,http://localhost:9966/petclinic/api/pettypes/1943,0,0,0
+1643567363024,9,PUT /api/pettypes/1943,204,,PET CLINIC SUITES 1-3,text,true,,282,277,6,6,http://localhost:9966/petclinic/api/pettypes/1943,0,0,0
+1643567363023,13,PUT /api/pettypes/1943,204,,PET CLINIC SUITES 1-5,text,true,,282,277,6,6,http://localhost:9966/petclinic/api/pettypes/1943,0,0,0
+1643567363032,9,GET /api/pettypes/1943,200,,PET CLINIC SUITES 1-6,text,true,,353,184,6,6,http://localhost:9966/petclinic/api/pettypes/1943,9,0,0
+1643567363034,7,GET /api/pettypes/1943,200,,PET CLINIC SUITES 1-4,text,true,,353,184,6,6,http://localhost:9966/petclinic/api/pettypes/1943,7,0,0
+1643567363032,9,GET /api/pettypes/1943,200,,PET CLINIC SUITES 1-1,text,true,,353,184,6,6,http://localhost:9966/petclinic/api/pettypes/1943,9,0,0
+1643567363035,6,GET /api/pettypes/1943,200,,PET CLINIC SUITES 1-3,text,true,,353,184,6,6,http://localhost:9966/petclinic/api/pettypes/1943,6,0,0
+1643567363034,7,GET /api/pettypes/1943,200,,PET CLINIC SUITES 1-2,text,true,,353,184,6,6,http://localhost:9966/petclinic/api/pettypes/1943,7,0,0
+1643567363041,7,GET /api/pettypes/1943,200,,PET CLINIC SUITES 1-5,text,true,,353,184,6,6,http://localhost:9966/petclinic/api/pettypes/1943,7,0,0
+1643567363089,13,POST /api/pettypes,201,,PET CLINIC SUITES 1-7,text,true,,400,265,7,7,http://localhost:9966/petclinic/api/pettypes,13,0,3
+1643567363104,11,GET /api/pettypes,200,,PET CLINIC SUITES 1-7,text,true,,25388,179,7,7,http://localhost:9966/petclinic/api/pettypes,11,0,0
+1643567363150,6,PUT /api/pettypes/1944,204,,PET CLINIC SUITES 1-7,text,true,,282,277,7,7,http://localhost:9966/petclinic/api/pettypes/1944,0,0,0
+1643567363158,5,GET /api/pettypes/1944,200,,PET CLINIC SUITES 1-7,text,true,,353,184,7,7,http://localhost:9966/petclinic/api/pettypes/1944,5,0,0
+1643567363070,10,POST /api/owners,201,,PET CLINIC SUITES 1-1,text,true,,522,407,6,6,http://localhost:9966/petclinic/api/owners,10,0,0
+1643567363083,11,POST /api/owners,201,,PET CLINIC SUITES 1-5,text,true,,522,407,7,7,http://localhost:9966/petclinic/api/owners,11,0,0
+1643567363069,11,POST /api/owners,201,,PET CLINIC SUITES 1-4,text,true,,522,407,6,6,http://localhost:9966/petclinic/api/owners,11,0,0
+1643567363069,11,POST /api/owners,201,,PET CLINIC SUITES 1-6,text,true,,522,407,6,6,http://localhost:9966/petclinic/api/owners,10,0,0
+1643567363174,6,POST /api/owners,201,,PET CLINIC SUITES 1-7,text,true,,522,407,7,7,http://localhost:9966/petclinic/api/owners,6,0,0
+1643567363069,10,POST /api/owners,201,,PET CLINIC SUITES 1-3,text,true,,522,407,6,6,http://localhost:9966/petclinic/api/owners,10,0,0
+1643567363077,11,POST /api/owners,201,,PET CLINIC SUITES 1-2,text,true,,522,407,7,7,http://localhost:9966/petclinic/api/owners,11,0,0
+1643567363258,24,GET /api/owners,200,,PET CLINIC SUITES 1-4,text,true,,24760,177,7,7,http://localhost:9966/petclinic/api/owners,22,0,0
+1643567363258,30,GET /api/owners,200,,PET CLINIC SUITES 1-6,text,true,,24760,177,7,7,http://localhost:9966/petclinic/api/owners,29,0,0
+1643567363259,35,GET /api/owners,200,,PET CLINIC SUITES 1-2,text,true,,24760,177,7,7,http://localhost:9966/petclinic/api/owners,34,0,0
+1643567363258,29,GET /api/owners,200,,PET CLINIC SUITES 1-7,text,true,,24760,177,7,7,http://localhost:9966/petclinic/api/owners,22,0,0
+1643567363261,44,GET /api/owners,200,,PET CLINIC SUITES 1-3,text,true,,24760,177,7,7,http://localhost:9966/petclinic/api/owners,44,0,0
+1643567363258,36,GET /api/owners,200,,PET CLINIC SUITES 1-5,text,true,,24760,177,7,7,http://localhost:9966/petclinic/api/owners,31,0,0
+1643567363322,11,GET /api/owners/*/lastname/Testev8084,200,,PET CLINIC SUITES 1-2,text,true,,465,199,7,7,http://localhost:9966/petclinic/api/owners/*/lastname/Testev8084,11,0,0
+1643567363315,8,GET /api/owners/*/lastname/Testev9271,200,,PET CLINIC SUITES 1-4,text,true,,465,199,7,7,http://localhost:9966/petclinic/api/owners/*/lastname/Testev9271,8,0,0
+1643567363338,8,GET /api/owners/*/lastname/Testev4398,200,,PET CLINIC SUITES 1-7,text,true,,465,199,7,7,http://localhost:9966/petclinic/api/owners/*/lastname/Testev4398,8,0,0
+1643567363258,31,GET /api/owners,200,,PET CLINIC SUITES 1-1,text,true,,24760,177,7,7,http://localhost:9966/petclinic/api/owners,31,0,0
+1643567363317,9,GET /api/owners/*/lastname/Testev4086,200,,PET CLINIC SUITES 1-6,text,true,,465,199,7,7,http://localhost:9966/petclinic/api/owners/*/lastname/Testev4086,9,0,0
+1643567363366,11,PUT /api/owners/5124,204,,PET CLINIC SUITES 1-2,text,true,,282,430,8,8,http://localhost:9966/petclinic/api/owners/5124,0,0,0
+1643567363369,9,PUT /api/owners/5126,204,,PET CLINIC SUITES 1-7,text,true,,282,430,8,8,http://localhost:9966/petclinic/api/owners/5126,0,0,0
+1643567363369,12,PUT /api/owners/5122,204,,PET CLINIC SUITES 1-4,text,true,,282,430,8,8,http://localhost:9966/petclinic/api/owners/5122,0,0,0
+1643567363380,7,PUT /api/owners/5120,204,,PET CLINIC SUITES 1-6,text,true,,282,430,8,8,http://localhost:9966/petclinic/api/owners/5120,0,0,0
+1643567363374,14,POST /api/pettypes,201,,PET CLINIC SUITES 1-8,text,true,,400,265,8,8,http://localhost:9966/petclinic/api/pettypes,14,0,5
+1643567363341,11,GET /api/owners/*/lastname/Testev9385,200,,PET CLINIC SUITES 1-3,text,true,,465,199,7,7,http://localhost:9966/petclinic/api/owners/*/lastname/Testev9385,11,0,0
+1643567363358,13,GET /api/owners/*/lastname/Testev5876,200,,PET CLINIC SUITES 1-5,text,true,,465,199,8,8,http://localhost:9966/petclinic/api/owners/*/lastname/Testev5876,13,0,0
+1643567363378,10,GET /api/owners/5124,200,,PET CLINIC SUITES 1-2,text,true,,479,182,8,8,http://localhost:9966/petclinic/api/owners/5124,10,0,0
+1643567363382,6,GET /api/owners/5122,200,,PET CLINIC SUITES 1-4,text,true,,479,182,8,8,http://localhost:9966/petclinic/api/owners/5122,5,0,0
+1643567363393,21,PUT /api/owners/5121,204,,PET CLINIC SUITES 1-3,text,true,,282,430,8,8,http://localhost:9966/petclinic/api/owners/5121,0,0,0
+1643567363395,16,PUT /api/owners/5125,204,,PET CLINIC SUITES 1-5,text,true,,282,430,8,8,http://localhost:9966/petclinic/api/owners/5125,0,0,0
+1643567363400,14,POST /api/pets,201,,PET CLINIC SUITES 1-2,text,true,,630,589,8,8,http://localhost:9966/petclinic/api/pets,14,0,0
+1643567363403,11,POST /api/pets,201,,PET CLINIC SUITES 1-4,text,true,,630,589,8,8,http://localhost:9966/petclinic/api/pets,11,0,0
+1643567363380,11,GET /api/owners/5126,200,,PET CLINIC SUITES 1-7,text,true,,479,182,8,8,http://localhost:9966/petclinic/api/owners/5126,11,0,0
+1643567363417,11,POST /api/pets,201,,PET CLINIC SUITES 1-7,text,true,,630,589,8,8,http://localhost:9966/petclinic/api/pets,10,0,0
+1643567363388,9,GET /api/owners/5120,200,,PET CLINIC SUITES 1-6,text,true,,479,182,8,8,http://localhost:9966/petclinic/api/owners/5120,8,0,0
+1643567363372,10,GET /api/owners/*/lastname/Testev8773,200,,PET CLINIC SUITES 1-1,text,true,,465,199,8,8,http://localhost:9966/petclinic/api/owners/*/lastname/Testev8773,9,0,0
+1643567363415,11,GET /api/owners/5121,200,,PET CLINIC SUITES 1-3,text,true,,479,182,8,8,http://localhost:9966/petclinic/api/owners/5121,11,0,0
+1643567363418,19,GET /api/owners/5125,200,,PET CLINIC SUITES 1-5,text,true,,479,182,8,8,http://localhost:9966/petclinic/api/owners/5125,18,0,0
+1643567363416,22,GET /api/pets,200,,PET CLINIC SUITES 1-2,text,true,,16229,175,8,8,http://localhost:9966/petclinic/api/pets,19,0,0
+1643567363452,9,POST /api/pets,201,,PET CLINIC SUITES 1-3,text,true,,630,589,8,8,http://localhost:9966/petclinic/api/pets,9,0,0
+1643567363389,16,GET /api/pettypes,200,,PET CLINIC SUITES 1-8,text,true,,25421,179,8,8,http://localhost:9966/petclinic/api/pettypes,16,0,0
+1643567363456,17,POST /api/pets,201,,PET CLINIC SUITES 1-5,text,true,,630,589,8,8,http://localhost:9966/petclinic/api/pets,16,0,0
+1643567363440,35,PUT /api/owners/5123,204,,PET CLINIC SUITES 1-1,text,true,,282,430,8,8,http://localhost:9966/petclinic/api/owners/5123,0,0,0
+1643567363451,26,POST /api/pets,201,,PET CLINIC SUITES 1-6,text,true,,630,589,8,8,http://localhost:9966/petclinic/api/pets,26,0,0
+1643567363464,15,PUT /api/pets/5121,204,,PET CLINIC SUITES 1-2,text,true,,282,749,8,8,http://localhost:9966/petclinic/api/pets/5121,0,0,0
+1643567363416,21,GET /api/pets,200,,PET CLINIC SUITES 1-4,text,true,,16229,175,8,8,http://localhost:9966/petclinic/api/pets,19,0,0
+1643567363473,10,PUT /api/pettypes/1948,204,,PET CLINIC SUITES 1-8,text,true,,282,277,8,8,http://localhost:9966/petclinic/api/pettypes/1948,0,0,0
+1643567363429,22,GET /api/pets,200,,PET CLINIC SUITES 1-7,text,true,,16491,175,8,8,http://localhost:9966/petclinic/api/pets,22,0,0
+1643567363485,11,PUT /api/pets/5120,204,,PET CLINIC SUITES 1-4,text,true,,282,749,8,8,http://localhost:9966/petclinic/api/pets/5120,0,0,0
+1643567363486,10,GET /api/pettypes/1948,200,,PET CLINIC SUITES 1-8,text,true,,353,184,8,8,http://localhost:9966/petclinic/api/pettypes/1948,9,0,0
+1643567363504,14,PUT /api/pets/5122,204,,PET CLINIC SUITES 1-7,text,true,,282,749,8,8,http://localhost:9966/petclinic/api/pets/5122,0,0,0
+1643567363476,14,GET /api/owners/5123,200,,PET CLINIC SUITES 1-1,text,true,,479,182,8,8,http://localhost:9966/petclinic/api/owners/5123,14,0,0
+1643567363481,10,GET /api/pets/5121,200,,PET CLINIC SUITES 1-2,text,true,,591,180,8,8,http://localhost:9966/petclinic/api/pets/5121,9,0,0
+1643567363497,11,GET /api/pets/5120,200,,PET CLINIC SUITES 1-4,text,true,,591,180,8,8,http://localhost:9966/petclinic/api/pets/5120,11,0,0
+1643567363521,9,POST /api/specialties,201,,PET CLINIC SUITES 1-2,text,true,,410,276,8,8,http://localhost:9966/petclinic/api/specialties,9,0,0
+1643567363479,37,GET /api/pets,200,,PET CLINIC SUITES 1-6,text,true,,17292,175,8,8,http://localhost:9966/petclinic/api/pets,36,0,0
+1643567363513,18,POST /api/owners,201,,PET CLINIC SUITES 1-8,text,true,,522,407,8,8,http://localhost:9966/petclinic/api/owners,18,0,0
+1643567363472,29,GET /api/pets,200,,PET CLINIC SUITES 1-3,text,true,,17292,175,8,8,http://localhost:9966/petclinic/api/pets,28,0,0
+1643567363519,9,GET /api/pets/5122,200,,PET CLINIC SUITES 1-7,text,true,,591,180,8,8,http://localhost:9966/petclinic/api/pets/5122,9,0,0
+1643567363535,14,PUT /api/pets/5123,204,,PET CLINIC SUITES 1-3,text,true,,282,749,8,8,http://localhost:9966/petclinic/api/pets/5123,0,0,0
+1643567363534,17,PUT /api/pets/5125,204,,PET CLINIC SUITES 1-6,text,true,,282,749,8,8,http://localhost:9966/petclinic/api/pets/5125,0,0,0
+1643567363475,38,GET /api/pets,200,,PET CLINIC SUITES 1-5,text,true,,17292,175,8,8,http://localhost:9966/petclinic/api/pets,30,0,0
+1643567363530,12,POST /api/specialties,201,,PET CLINIC SUITES 1-4,text,true,,410,276,8,8,http://localhost:9966/petclinic/api/specialties,12,0,0
+1643567363544,14,POST /api/specialties,201,,PET CLINIC SUITES 1-7,text,true,,410,276,8,8,http://localhost:9966/petclinic/api/specialties,14,0,0
+1643567363553,11,PUT /api/pets/5124,204,,PET CLINIC SUITES 1-5,text,true,,282,749,8,8,http://localhost:9966/petclinic/api/pets/5124,0,0,0
+1643567363552,9,GET /api/pets/5125,200,,PET CLINIC SUITES 1-6,text,true,,591,180,8,8,http://localhost:9966/petclinic/api/pets/5125,9,0,0
+1643567363520,61,POST /api/pets,201,,PET CLINIC SUITES 1-1,text,true,,630,589,8,8,http://localhost:9966/petclinic/api/pets,61,0,0
+1643567363581,10,POST /api/specialties,201,,PET CLINIC SUITES 1-6,text,true,,410,276,8,8,http://localhost:9966/petclinic/api/specialties,10,0,0
+1643567363537,37,GET /api/owners,200,,PET CLINIC SUITES 1-8,text,true,,25764,177,8,8,http://localhost:9966/petclinic/api/owners,37,0,0
+1643567363531,23,GET /api/specialties,200,,PET CLINIC SUITES 1-2,text,true,,47683,182,8,8,http://localhost:9966/petclinic/api/specialties,22,0,0
+1643567363595,12,PUT /api/specialties/4395,204,,PET CLINIC SUITES 1-2,text,true,,282,288,8,8,http://localhost:9966/petclinic/api/specialties/4395,0,0,0
+1643567363550,11,GET /api/pets/5123,200,,PET CLINIC SUITES 1-3,text,true,,591,180,8,8,http://localhost:9966/petclinic/api/pets/5123,10,0,0
+1643567363566,11,GET /api/pets/5124,200,,PET CLINIC SUITES 1-5,text,true,,591,180,8,8,http://localhost:9966/petclinic/api/pets/5124,11,0,0
+1643567363609,8,POST /api/specialties,201,,PET CLINIC SUITES 1-3,text,true,,410,276,8,8,http://localhost:9966/petclinic/api/specialties,8,0,0
+1643567363594,8,GET /api/owners/*/lastname/Testev3891,200,,PET CLINIC SUITES 1-8,text,true,,465,199,8,8,http://localhost:9966/petclinic/api/owners/*/lastname/Testev3891,8,0,0
+1643567363573,17,GET /api/specialties,200,,PET CLINIC SUITES 1-7,text,true,,47749,182,8,8,http://localhost:9966/petclinic/api/specialties,15,0,0
+1643567363582,43,GET /api/pets,200,,PET CLINIC SUITES 1-1,text,true,,17594,175,8,8,http://localhost:9966/petclinic/api/pets,42,0,0
+1643567363631,15,PUT /api/owners/5127,204,,PET CLINIC SUITES 1-8,text,true,,282,430,8,8,http://localhost:9966/petclinic/api/owners/5127,0,0,0
+1643567363646,6,PUT /api/specialties/4395,204,,PET CLINIC SUITES 1-7,text,true,,282,288,8,8,http://localhost:9966/petclinic/api/specialties/4395,0,0,0
+1643567363636,16,POST /api/specialties,201,,PET CLINIC SUITES 1-5,text,true,,410,276,8,8,http://localhost:9966/petclinic/api/specialties,16,0,0
+1643567363646,6,PUT /api/pets/5126,204,,PET CLINIC SUITES 1-1,text,true,,282,749,8,8,http://localhost:9966/petclinic/api/pets/5126,0,0,0
+1643567363554,21,GET /api/specialties,200,,PET CLINIC SUITES 1-4,text,true,,47749,182,8,8,http://localhost:9966/petclinic/api/specialties,21,0,0
+1643567363592,15,GET /api/specialties,200,,PET CLINIC SUITES 1-6,text,true,,47782,182,8,8,http://localhost:9966/petclinic/api/specialties,15,0,0
+1643567363646,6,GET /api/owners/5127,200,,PET CLINIC SUITES 1-8,text,true,,479,182,8,8,http://localhost:9966/petclinic/api/owners/5127,6,0,0
+1643567363656,8,PUT /api/specialties/4395,204,,PET CLINIC SUITES 1-6,text,true,,282,288,8,8,http://localhost:9966/petclinic/api/specialties/4395,0,0,0
+1643567363662,9,POST /api/pets,201,,PET CLINIC SUITES 1-8,text,true,,630,589,8,8,http://localhost:9966/petclinic/api/pets,8,0,0
+1643567363656,16,PUT /api/specialties/4395,204,,PET CLINIC SUITES 1-4,text,true,,282,288,8,8,http://localhost:9966/petclinic/api/specialties/4395,0,0,0
+1643567363653,12,GET /api/specialties/4395,200,,PET CLINIC SUITES 1-7,text,true,,361,187,8,8,http://localhost:9966/petclinic/api/specialties/4395,12,0,0
+1643567363608,9,GET /api/specialties/4395,200,,PET CLINIC SUITES 1-2,text,true,,361,187,8,8,http://localhost:9966/petclinic/api/specialties/4395,9,0,0
+1643567363666,6,GET /api/specialties/4395,200,,PET CLINIC SUITES 1-6,text,true,,361,187,8,8,http://localhost:9966/petclinic/api/specialties/4395,6,0,0
+1643567363686,13,POST /api/vets,201,,PET CLINIC SUITES 1-7,text,true,,471,360,9,9,http://localhost:9966/petclinic/api/vets,12,0,0
+1643567363690,10,POST /api/vets,201,,PET CLINIC SUITES 1-2,text,true,,471,360,9,9,http://localhost:9966/petclinic/api/vets,10,0,0
+1643567363683,17,POST /api/pettypes,201,,PET CLINIC SUITES 1-9,text,true,,400,265,9,9,http://localhost:9966/petclinic/api/pettypes,17,0,2
+1643567363693,11,POST /api/vets,201,,PET CLINIC SUITES 1-6,text,true,,471,360,9,9,http://localhost:9966/petclinic/api/vets,11,0,0
+1643567363653,8,GET /api/pets/5126,200,,PET CLINIC SUITES 1-1,text,true,,591,180,8,8,http://localhost:9966/petclinic/api/pets/5126,8,0,0
+1643567363672,21,GET /api/pets,200,,PET CLINIC SUITES 1-8,text,true,,17864,175,9,9,http://localhost:9966/petclinic/api/pets,21,0,0
+1643567363684,15,GET /api/specialties/4395,200,,PET CLINIC SUITES 1-4,text,true,,361,187,9,9,http://localhost:9966/petclinic/api/specialties/4395,15,0,0
+1643567363618,16,GET /api/specialties,200,,PET CLINIC SUITES 1-3,text,true,,47823,182,8,8,http://localhost:9966/petclinic/api/specialties,15,0,0
+1643567363709,19,PUT /api/pets/5127,204,,PET CLINIC SUITES 1-8,text,true,,282,749,9,9,http://localhost:9966/petclinic/api/pets/5127,0,0,0
+1643567363715,14,POST /api/vets,201,,PET CLINIC SUITES 1-4,text,true,,471,360,9,9,http://localhost:9966/petclinic/api/vets,13,0,0
+1643567363730,9,PUT /api/specialties/4396,204,,PET CLINIC SUITES 1-3,text,true,,282,288,9,9,http://localhost:9966/petclinic/api/specialties/4396,0,0,0
+1643567363700,27,GET /api/vets,200,,PET CLINIC SUITES 1-7,text,true,,16424,175,9,9,http://localhost:9966/petclinic/api/vets,27,0,0
+1643567363740,7,GET /api/specialties/4396,200,,PET CLINIC SUITES 1-3,text,true,,361,187,9,9,http://localhost:9966/petclinic/api/specialties/4396,7,0,0
+1643567363729,8,GET /api/pets/5127,200,,PET CLINIC SUITES 1-8,text,true,,591,180,9,9,http://localhost:9966/petclinic/api/pets/5127,8,0,0
+1643567363708,28,POST /api/specialties,201,,PET CLINIC SUITES 1-1,text,true,,410,276,9,9,http://localhost:9966/petclinic/api/specialties,26,0,0
+1643567363752,8,PUT /api/vets/1206,204,,PET CLINIC SUITES 1-7,text,true,,282,380,9,9,http://localhost:9966/petclinic/api/vets/1206,0,0,0
+1643567363755,9,POST /api/specialties,201,,PET CLINIC SUITES 1-8,text,true,,410,276,9,9,http://localhost:9966/petclinic/api/specialties,9,0,0
+1643567363702,26,GET /api/vets,200,,PET CLINIC SUITES 1-2,text,true,,16424,175,9,9,http://localhost:9966/petclinic/api/vets,26,0,0
+1643567363762,7,GET /api/vets/1206,200,,PET CLINIC SUITES 1-7,text,true,,453,180,9,9,http://localhost:9966/petclinic/api/vets/1206,7,0,0
+1643567363757,23,POST /api/vets,201,,PET CLINIC SUITES 1-3,text,true,,471,360,9,9,http://localhost:9966/petclinic/api/vets,23,0,0
+1643567363706,24,GET /api/vets,200,,PET CLINIC SUITES 1-6,text,true,,16424,175,9,9,http://localhost:9966/petclinic/api/vets,24,0,0
+1643567363777,11,PUT /api/vets/1207,204,,PET CLINIC SUITES 1-2,text,true,,282,380,9,9,http://localhost:9966/petclinic/api/vets/1207,0,0,0
+1643567363781,7,POST /api/visits,201,,PET CLINIC SUITES 1-7,text,true,,714,710,9,9,http://localhost:9966/petclinic/api/visits,7,0,0
+1643567363785,12,PUT /api/vets/1208,204,,PET CLINIC SUITES 1-6,text,true,,282,380,9,9,http://localhost:9966/petclinic/api/vets/1208,0,0,0
+1643567363704,21,GET /api/pettypes,200,,PET CLINIC SUITES 1-9,text,true,,25454,179,9,9,http://localhost:9966/petclinic/api/pettypes,21,0,0
+1643567363789,9,GET /api/vets/1207,200,,PET CLINIC SUITES 1-2,text,true,,453,180,9,9,http://localhost:9966/petclinic/api/vets/1207,9,0,0
+1643567363805,9,PUT /api/pettypes/1949,204,,PET CLINIC SUITES 1-9,text,true,,282,277,9,9,http://localhost:9966/petclinic/api/pettypes/1949,0,0,0
+1643567363798,9,GET /api/vets/1208,200,,PET CLINIC SUITES 1-6,text,true,,453,180,9,9,http://localhost:9966/petclinic/api/vets/1208,8,0,0
+1643567363766,16,GET /api/specialties,200,,PET CLINIC SUITES 1-8,text,true,,47930,182,9,9,http://localhost:9966/petclinic/api/specialties,12,0,0
+1643567363814,8,POST /api/visits,201,,PET CLINIC SUITES 1-2,text,true,,714,710,9,9,http://localhost:9966/petclinic/api/visits,8,0,0
+1643567363796,13,GET /api/visits,200,,PET CLINIC SUITES 1-7,text,true,,7273,177,9,9,http://localhost:9966/petclinic/api/visits,12,0,0
+1643567363815,9,GET /api/pettypes/1949,200,,PET CLINIC SUITES 1-9,text,true,,353,184,9,9,http://localhost:9966/petclinic/api/pettypes/1949,9,0,0
+1643567363824,8,PUT /api/specialties/4397,204,,PET CLINIC SUITES 1-8,text,true,,282,288,9,9,http://localhost:9966/petclinic/api/specialties/4397,0,0,0
+1643567363823,12,POST /api/visits,201,,PET CLINIC SUITES 1-6,text,true,,714,710,9,9,http://localhost:9966/petclinic/api/visits,12,0,0
+1643567363826,12,PUT /api/visits/5061,204,,PET CLINIC SUITES 1-7,text,true,,282,722,9,9,http://localhost:9966/petclinic/api/visits/5061,0,0,0
+1643567363838,11,POST /api/owners,201,,PET CLINIC SUITES 1-9,text,true,,522,407,9,9,http://localhost:9966/petclinic/api/owners,11,0,0
+1643567363824,14,GET /api/visits,200,,PET CLINIC SUITES 1-2,text,true,,7616,177,9,9,http://localhost:9966/petclinic/api/visits,14,0,0
+1643567363755,21,GET /api/specialties,200,,PET CLINIC SUITES 1-1,text,true,,47897,182,9,9,http://localhost:9966/petclinic/api/specialties,14,0,0
+1643567363840,9,GET /api/visits/5061,200,,PET CLINIC SUITES 1-7,text,true,,672,182,9,9,http://localhost:9966/petclinic/api/visits/5061,9,0,0
+1643567363835,10,GET /api/specialties/4397,200,,PET CLINIC SUITES 1-8,text,true,,361,187,9,9,http://localhost:9966/petclinic/api/specialties/4397,9,0,0
+1643567363788,22,GET /api/vets,200,,PET CLINIC SUITES 1-3,text,true,,16690,175,9,9,http://localhost:9966/petclinic/api/vets,19,0,0
+1643567363837,13,GET /api/visits,200,,PET CLINIC SUITES 1-6,text,true,,7967,177,9,9,http://localhost:9966/petclinic/api/visits,13,0,0
+1643567363852,19,PUT /api/visits/5062,204,,PET CLINIC SUITES 1-2,text,true,,282,722,9,9,http://localhost:9966/petclinic/api/visits/5062,0,0,0
+1643567363863,12,PUT /api/vets/1210,204,,PET CLINIC SUITES 1-3,text,true,,282,380,9,9,http://localhost:9966/petclinic/api/vets/1210,0,0,0
+1643567363858,17,DELETE /api/visits/5061,204,,PET CLINIC SUITES 1-7,,true,,236,268,9,9,http://localhost:9966/petclinic/api/visits/5061,0,0,0
+1643567363861,15,POST /api/vets,201,,PET CLINIC SUITES 1-8,text,true,,471,360,9,9,http://localhost:9966/petclinic/api/vets,14,0,0
+1643567363866,12,PUT /api/visits/5063,204,,PET CLINIC SUITES 1-6,text,true,,282,722,9,9,http://localhost:9966/petclinic/api/visits/5063,0,0,0
+1643567363653,28,GET /api/specialties,200,,PET CLINIC SUITES 1-5,text,true,,47856,182,9,9,http://localhost:9966/petclinic/api/specialties,27,0,0
+1643567363861,20,PUT /api/specialties/4397,204,,PET CLINIC SUITES 1-1,text,true,,282,288,9,9,http://localhost:9966/petclinic/api/specialties/4397,0,0,0
+1643567363876,13,DELETE /api/pets/5122,204,,PET CLINIC SUITES 1-7,,true,,236,266,9,9,http://localhost:9966/petclinic/api/pets/5122,0,0,0
+1643567363733,17,GET /api/vets,200,,PET CLINIC SUITES 1-4,text,true,,16541,175,9,9,http://localhost:9966/petclinic/api/vets,17,0,0
+1643567363872,9,GET /api/visits/5062,200,,PET CLINIC SUITES 1-2,text,true,,672,182,9,9,http://localhost:9966/petclinic/api/visits/5062,9,0,0
+1643567363883,11,PUT /api/specialties/4396,204,,PET CLINIC SUITES 1-5,text,true,,282,288,9,9,http://localhost:9966/petclinic/api/specialties/4396,0,0,0
+1643567363880,10,GET /api/visits/5063,200,,PET CLINIC SUITES 1-6,text,true,,672,182,9,9,http://localhost:9966/petclinic/api/visits/5063,10,0,0
+1643567363892,10,PUT /api/vets/1209,204,,PET CLINIC SUITES 1-4,text,true,,282,380,9,9,http://localhost:9966/petclinic/api/vets/1209,0,0,0
+1643567363882,14,GET /api/specialties/4397,200,,PET CLINIC SUITES 1-1,text,true,,361,187,9,9,http://localhost:9966/petclinic/api/specialties/4397,13,0,0
+1643567363890,12,DELETE /api/owners/5126,204,,PET CLINIC SUITES 1-7,,true,,236,268,9,9,http://localhost:9966/petclinic/api/owners/5126,0,0,0
+1643567363850,40,GET /api/owners,200,,PET CLINIC SUITES 1-9,text,true,,26456,177,9,9,http://localhost:9966/petclinic/api/owners,39,0,0
+1643567363895,11,DELETE /api/visits/5062,204,,PET CLINIC SUITES 1-2,,true,,236,268,9,9,http://localhost:9966/petclinic/api/visits/5062,0,0,0
+1643567363899,12,DELETE /api/visits/5063,204,,PET CLINIC SUITES 1-6,,true,,236,268,9,9,http://localhost:9966/petclinic/api/visits/5063,0,0,0
+1643567363904,13,DELETE /api/pettypes/1944,204,,PET CLINIC SUITES 1-7,,true,,236,270,9,9,http://localhost:9966/petclinic/api/pettypes/1944,0,0,0
+1643567363907,10,DELETE /api/pets/5121,204,,PET CLINIC SUITES 1-2,,true,,236,266,9,9,http://localhost:9966/petclinic/api/pets/5121,0,0,0
+1643567363895,12,GET /api/specialties/4396,200,,PET CLINIC SUITES 1-5,text,true,,361,187,9,9,http://localhost:9966/petclinic/api/specialties/4396,12,0,0
+1643567363904,10,GET /api/vets/1209,200,,PET CLINIC SUITES 1-4,text,true,,453,180,9,9,http://localhost:9966/petclinic/api/vets/1209,6,0,0
+1643567363877,16,GET /api/vets,200,,PET CLINIC SUITES 1-8,text,true,,16845,175,9,9,http://localhost:9966/petclinic/api/vets,16,0,0
+1643567363912,11,DELETE /api/pets/5125,204,,PET CLINIC SUITES 1-6,,true,,236,266,9,9,http://localhost:9966/petclinic/api/pets/5125,0,0,0
+1643567363918,7,DELETE /api/vets/1206,204,,PET CLINIC SUITES 1-7,,true,,236,266,9,9,http://localhost:9966/petclinic/api/vets/1206,0,0,0
+1643567363918,9,DELETE /api/owners/5124,204,,PET CLINIC SUITES 1-2,,true,,236,268,9,9,http://localhost:9966/petclinic/api/owners/5124,0,0,0
+1643567363923,8,POST /api/visits,201,,PET CLINIC SUITES 1-4,text,true,,714,710,9,9,http://localhost:9966/petclinic/api/visits,7,0,0
+1643567363907,11,GET /api/owners/*/lastname/Testev5299,200,,PET CLINIC SUITES 1-9,text,true,,465,199,9,9,http://localhost:9966/petclinic/api/owners/*/lastname/Testev5299,11,0,0
+1643567363924,10,PUT /api/vets/1211,204,,PET CLINIC SUITES 1-8,text,true,,282,380,9,9,http://localhost:9966/petclinic/api/vets/1211,0,0,0
+1643567363924,10,DELETE /api/owners/5120,204,,PET CLINIC SUITES 1-6,,true,,236,268,9,9,http://localhost:9966/petclinic/api/owners/5120,0,0,0
+1643567363926,14,DELETE /api/specialties/4395,400,,PET CLINIC SUITES 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,273,9,9,http://localhost:9966/petclinic/api/specialties/4395,12,0,0
+1643567363928,23,DELETE /api/pettypes/1943,204,,PET CLINIC SUITES 1-2,,true,,236,270,8,8,http://localhost:9966/petclinic/api/pettypes/1943,0,0,0
+1643567363933,18,POST /api/vets,201,,PET CLINIC SUITES 1-5,text,true,,471,360,8,8,http://localhost:9966/petclinic/api/vets,18,0,0
+1643567363876,19,GET /api/vets/1210,200,,PET CLINIC SUITES 1-3,text,true,,453,180,9,9,http://localhost:9966/petclinic/api/vets/1210,18,0,0
+1643567363957,16,POST /api/visits,400,,PET CLINIC SUITES 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/",578,710,9,9,http://localhost:9966/petclinic/api/visits,15,0,0
+1643567363935,42,DELETE /api/pettypes/1943,400,,PET CLINIC SUITES 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",657,270,9,9,http://localhost:9966/petclinic/api/pettypes/1943,42,0,0
+1643567363953,27,DELETE /api/vets/1207,204,,PET CLINIC SUITES 1-2,,true,,236,266,9,9,http://localhost:9966/petclinic/api/vets/1207,0,0,0
+1643567363935,44,PUT /api/owners/5128,204,,PET CLINIC SUITES 1-9,text,true,,282,430,9,9,http://localhost:9966/petclinic/api/owners/5128,0,0,0
+1643567363917,64,POST /api/vets,201,,PET CLINIC SUITES 1-1,text,true,,471,360,9,9,http://localhost:9966/petclinic/api/vets,64,0,0
+1643567363938,36,GET /api/vets/1211,200,,PET CLINIC SUITES 1-8,text,true,,453,180,9,9,http://localhost:9966/petclinic/api/vets/1211,36,0,0
+1643567363988,9,POST /api/visits,201,,PET CLINIC SUITES 1-8,text,true,,714,710,9,9,http://localhost:9966/petclinic/api/visits,9,0,0
+1643567363981,20,DELETE /api/vets/1208,204,,PET CLINIC SUITES 1-6,,true,,236,266,9,9,http://localhost:9966/petclinic/api/vets/1208,0,0,2
+1643567363959,45,POST /api/pettypes,201,,PET CLINIC SUITES 1-10,text,true,,400,265,9,9,http://localhost:9966/petclinic/api/pettypes,45,0,2
+1643567363980,25,DELETE /api/specialties/4395,400,,PET CLINIC SUITES 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,273,9,9,http://localhost:9966/petclinic/api/specialties/4395,24,0,0
+1643567364004,13,DELETE /api/specialties/4395,400,,PET CLINIC SUITES 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,273,8,8,http://localhost:9966/petclinic/api/specialties/4395,12,0,0
+1643567363981,26,GET /api/owners/5128,200,,PET CLINIC SUITES 1-9,text,true,,479,182,8,8,http://localhost:9966/petclinic/api/owners/5128,25,0,0
+1643567363976,35,GET /api/visits,200,,PET CLINIC SUITES 1-3,text,true,,7273,177,8,8,http://localhost:9966/petclinic/api/visits,34,0,2
+1643567364004,19,GET /api/visits,200,,PET CLINIC SUITES 1-8,text,true,,7273,177,7,7,http://localhost:9966/petclinic/api/visits,19,0,0
+1643567363954,43,GET /api/vets,200,,PET CLINIC SUITES 1-5,text,true,,16938,175,9,9,http://localhost:9966/petclinic/api/vets,24,0,0
+1643567364028,12,POST /api/pets,201,,PET CLINIC SUITES 1-9,text,true,,630,589,7,7,http://localhost:9966/petclinic/api/pets,12,0,0
+1643567363933,45,GET /api/visits,400,,PET CLINIC SUITES 1-4,text,false,"com.github.fge.jsonschema.core.report.ListProcessingReport: failure
+--- BEGIN MESSAGES ---
+error: instance type (object) does not match any allowed primitive type (allowed: [""array""])
+    level: ""error""
+    schema: {""loadingURI"":""#"",""pointer"":""""}
+    instance: {""pointer"":""""}
+    domain: ""validation""
+    keyword: ""type""
+    found: ""object""
+    expected: [""array""]
+---  END MESSAGES  ---
+",630,177,9,9,http://localhost:9966/petclinic/api/visits,45,0,0
+1643567364033,13,PUT /api/visits/,400,,PET CLINIC SUITES 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",449,718,7,7,http://localhost:9966/petclinic/api/visits/,11,0,0
+1643567363982,36,GET /api/vets,200,,PET CLINIC SUITES 1-1,text,true,,16845,175,8,8,http://localhost:9966/petclinic/api/vets,31,0,0
+1643567364038,13,PUT /api/visits/5066,204,,PET CLINIC SUITES 1-8,text,true,,282,722,7,7,http://localhost:9966/petclinic/api/visits/5066,0,0,0
+1643567364044,9,PUT /api/vets/1213,204,,PET CLINIC SUITES 1-5,text,true,,282,380,7,7,http://localhost:9966/petclinic/api/vets/1213,0,0,0
+1643567364004,20,GET /api/pettypes,200,,PET CLINIC SUITES 1-10,text,true,,25421,179,7,7,http://localhost:9966/petclinic/api/pettypes,19,0,0
+1643567364049,10,PUT /api/vets/1212,204,,PET CLINIC SUITES 1-1,text,true,,282,380,7,7,http://localhost:9966/petclinic/api/vets/1212,0,0,0
+1643567364048,12,PUT /api/visits/5064,404,,PET CLINIC SUITES 1-4,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,722,7,7,http://localhost:9966/petclinic/api/visits/5064,12,0,4
+1643567364061,6,GET /api/visits/5064,404,,PET CLINIC SUITES 1-4,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",255,182,7,7,http://localhost:9966/petclinic/api/visits/5064,6,0,0
+1643567364059,10,PUT /api/pettypes/1951,204,,PET CLINIC SUITES 1-10,text,true,,282,277,7,7,http://localhost:9966/petclinic/api/pettypes/1951,0,0,0
+1643567364052,9,GET /api/visits/5066,200,,PET CLINIC SUITES 1-8,text,true,,672,182,7,7,http://localhost:9966/petclinic/api/visits/5066,9,0,0
+1643567364068,9,DELETE /api/visits/5064,404,,PET CLINIC SUITES 1-4,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,268,7,7,http://localhost:9966/petclinic/api/visits/5064,9,0,0
+1643567364044,23,GET /api/pets,200,,PET CLINIC SUITES 1-9,text,true,,16334,175,7,7,http://localhost:9966/petclinic/api/pets,22,0,0
+1643567364054,12,GET /api/vets/1213,200,,PET CLINIC SUITES 1-5,text,true,,453,180,7,7,http://localhost:9966/petclinic/api/vets/1213,12,0,0
+1643567364071,10,DELETE /api/visits/5066,204,,PET CLINIC SUITES 1-8,,true,,236,268,7,7,http://localhost:9966/petclinic/api/visits/5066,0,0,0
+1643567364047,19,GET /api/visits/,200,,PET CLINIC SUITES 1-3,text,false,"com.github.fge.jsonschema.core.report.ListProcessingReport: failure
+--- BEGIN MESSAGES ---
+error: instance type (array) does not match any allowed primitive type (allowed: [""object""])
+    level: ""error""
+    schema: {""loadingURI"":""#"",""pointer"":""""}
+    instance: {""pointer"":""""}
+    domain: ""validation""
+    keyword: ""type""
+    found: ""array""
+    expected: [""object""]
+---  END MESSAGES  ---
+",7281,178,7,7,http://localhost:9966/petclinic/api/visits/,19,0,3
+1643567364070,7,GET /api/pettypes/1951,200,,PET CLINIC SUITES 1-10,text,true,,353,184,7,7,http://localhost:9966/petclinic/api/pettypes/1951,7,0,0
+1643567364078,8,DELETE /api/pets/5120,404,,PET CLINIC SUITES 1-4,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,266,7,7,http://localhost:9966/petclinic/api/pets/5120,8,0,0
+1643567364061,8,GET /api/vets/1212,200,,PET CLINIC SUITES 1-1,text,true,,453,180,7,7,http://localhost:9966/petclinic/api/vets/1212,8,0,0
+1643567364082,8,DELETE /api/pets/5127,204,,PET CLINIC SUITES 1-8,,true,,236,266,7,7,http://localhost:9966/petclinic/api/pets/5127,0,0,0
+1643567364081,10,PUT /api/pets/5128,204,,PET CLINIC SUITES 1-9,text,true,,282,749,7,7,http://localhost:9966/petclinic/api/pets/5128,0,0,0
+1643567364087,8,DELETE /api/owners/5122,204,,PET CLINIC SUITES 1-4,,true,,236,268,7,7,http://localhost:9966/petclinic/api/owners/5122,0,0,0
+1643567364086,13,DELETE /api/visits/,400,,PET CLINIC SUITES 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",452,264,7,7,http://localhost:9966/petclinic/api/visits/,13,0,0
+1643567364091,8,DELETE /api/owners/5127,204,,PET CLINIC SUITES 1-8,,true,,236,268,7,7,http://localhost:9966/petclinic/api/owners/5127,0,0,0
+1643567364096,8,DELETE /api/pettypes/1943,404,,PET CLINIC SUITES 1-4,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,270,7,7,http://localhost:9966/petclinic/api/pettypes/1943,8,0,0
+1643567364096,9,POST /api/owners,201,,PET CLINIC SUITES 1-10,text,true,,522,407,7,7,http://localhost:9966/petclinic/api/owners,9,0,0
+1643567364083,26,POST /api/visits,400,,PET CLINIC SUITES 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/",578,710,7,7,http://localhost:9966/petclinic/api/visits,25,0,0
+1643567364101,9,DELETE /api/pets/5123,404,,PET CLINIC SUITES 1-3,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,266,7,7,http://localhost:9966/petclinic/api/pets/5123,9,0,2
+1643567364100,11,DELETE /api/pettypes/1948,204,,PET CLINIC SUITES 1-8,,true,,236,270,7,7,http://localhost:9966/petclinic/api/pettypes/1948,0,0,0
+1643567364106,8,DELETE /api/vets/1209,204,,PET CLINIC SUITES 1-4,,true,,236,266,7,7,http://localhost:9966/petclinic/api/vets/1209,0,0,0
+1643567364112,6,DELETE /api/vets/1211,204,,PET CLINIC SUITES 1-8,,true,,236,266,7,7,http://localhost:9966/petclinic/api/vets/1211,0,0,0
+1643567364111,8,DELETE /api/owners/5121,204,,PET CLINIC SUITES 1-3,,true,,236,268,7,7,http://localhost:9966/petclinic/api/owners/5121,0,0,0
+1643567364114,9,DELETE /api/specialties/4395,204,,PET CLINIC SUITES 1-4,,true,,236,273,7,7,http://localhost:9966/petclinic/api/specialties/4395,0,0,0
+1643567364120,8,DELETE /api/pettypes/1943,404,,PET CLINIC SUITES 1-3,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,270,6,6,http://localhost:9966/petclinic/api/pettypes/1943,8,0,0
+1643567364119,11,DELETE /api/specialties/4397,400,,PET CLINIC SUITES 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,273,6,6,http://localhost:9966/petclinic/api/specialties/4397,10,0,0
+1643567364132,11,DELETE /api/vets/1210,204,,PET CLINIC SUITES 1-3,,true,,236,266,5,5,http://localhost:9966/petclinic/api/vets/1210,0,0,0
+1643567364108,23,GET /api/owners,200,,PET CLINIC SUITES 1-10,text,true,,24663,177,6,6,http://localhost:9966/petclinic/api/owners,23,0,0
+1643567364100,44,POST /api/visits,400,,PET CLINIC SUITES 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/",578,710,5,5,http://localhost:9966/petclinic/api/visits,43,0,0
+1643567364144,9,DELETE /api/specialties/4396,400,,PET CLINIC SUITES 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,273,5,5,http://localhost:9966/petclinic/api/specialties/4396,9,0,0
+1643567364111,20,GET /api/visits,200,,PET CLINIC SUITES 1-5,text,true,,6930,177,6,6,http://localhost:9966/petclinic/api/visits,20,0,2
+1643567364098,35,GET /api/pets/5128,200,,PET CLINIC SUITES 1-9,text,true,,591,180,5,5,http://localhost:9966/petclinic/api/pets/5128,10,0,0
+1643567364145,8,GET /api/owners/*/lastname/Testev2217,200,,PET CLINIC SUITES 1-10,text,true,,465,199,5,5,http://localhost:9966/petclinic/api/owners/*/lastname/Testev2217,8,0,0
+1643567364157,8,POST /api/specialties,201,,PET CLINIC SUITES 1-9,text,true,,410,276,4,4,http://localhost:9966/petclinic/api/specialties,8,0,0
+1643567364157,9,PUT /api/visits/,400,,PET CLINIC SUITES 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",449,718,4,4,http://localhost:9966/petclinic/api/visits/,8,0,0
+1643567364166,9,PUT /api/owners/5129,204,,PET CLINIC SUITES 1-10,text,true,,282,430,4,4,http://localhost:9966/petclinic/api/owners/5129,0,0,0
+1643567364147,17,GET /api/visits,200,,PET CLINIC SUITES 1-1,text,true,,6930,177,4,4,http://localhost:9966/petclinic/api/visits,17,0,3
+1643567364178,16,PUT /api/visits/,400,,PET CLINIC SUITES 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",449,718,4,4,http://localhost:9966/petclinic/api/visits/,15,0,0
+1643567364167,35,GET /api/visits/,200,,PET CLINIC SUITES 1-5,text,false,"com.github.fge.jsonschema.core.report.ListProcessingReport: failure
+--- BEGIN MESSAGES ---
+error: instance type (array) does not match any allowed primitive type (allowed: [""object""])
+    level: ""error""
+    schema: {""loadingURI"":""#"",""pointer"":""""}
+    instance: {""pointer"":""""}
+    domain: ""validation""
+    keyword: ""type""
+    found: ""array""
+    expected: [""object""]
+---  END MESSAGES  ---
+",6930,178,4,4,http://localhost:9966/petclinic/api/visits/,34,0,2
+1643567364180,13,GET /api/owners/5129,200,,PET CLINIC SUITES 1-10,text,true,,479,182,4,4,http://localhost:9966/petclinic/api/owners/5129,13,0,0
+1643567364216,10,DELETE /api/visits/,400,,PET CLINIC SUITES 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",452,264,4,4,http://localhost:9966/petclinic/api/visits/,9,0,0
+1643567364166,30,GET /api/specialties,200,,PET CLINIC SUITES 1-9,text,true,,47930,182,4,4,http://localhost:9966/petclinic/api/specialties,30,0,0
+1643567364218,21,POST /api/pets,201,,PET CLINIC SUITES 1-10,text,true,,630,589,4,4,http://localhost:9966/petclinic/api/pets,20,0,0
+1643567364205,30,GET /api/visits/,200,,PET CLINIC SUITES 1-1,text,false,"com.github.fge.jsonschema.core.report.ListProcessingReport: failure
+--- BEGIN MESSAGES ---
+error: instance type (array) does not match any allowed primitive type (allowed: [""object""])
+    level: ""error""
+    schema: {""loadingURI"":""#"",""pointer"":""""}
+    instance: {""pointer"":""""}
+    domain: ""validation""
+    keyword: ""type""
+    found: ""array""
+    expected: [""object""]
+---  END MESSAGES  ---
+",6930,178,4,4,http://localhost:9966/petclinic/api/visits/,30,0,3
+1643567364232,15,DELETE /api/pets/5124,404,,PET CLINIC SUITES 1-5,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,266,4,4,http://localhost:9966/petclinic/api/pets/5124,15,0,3
+1643567364239,10,PUT /api/specialties/4398,204,,PET CLINIC SUITES 1-9,text,true,,282,288,4,4,http://localhost:9966/petclinic/api/specialties/4398,0,0,0
+1643567364248,10,DELETE /api/owners/5125,204,,PET CLINIC SUITES 1-5,,true,,236,268,4,4,http://localhost:9966/petclinic/api/owners/5125,0,0,0
+1643567364247,13,DELETE /api/visits/,400,,PET CLINIC SUITES 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",452,264,4,4,http://localhost:9966/petclinic/api/visits/,10,0,0
+1643567364259,8,DELETE /api/pettypes/1943,404,,PET CLINIC SUITES 1-5,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,270,4,4,http://localhost:9966/petclinic/api/pettypes/1943,8,0,0
+1643567364251,11,GET /api/specialties/4398,200,,PET CLINIC SUITES 1-9,text,true,,361,187,4,4,http://localhost:9966/petclinic/api/specialties/4398,11,0,0
+1643567364241,22,GET /api/pets,200,,PET CLINIC SUITES 1-10,text,true,,16237,175,4,4,http://localhost:9966/petclinic/api/pets,21,0,0
+1643567364261,14,DELETE /api/pets/5126,404,,PET CLINIC SUITES 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,266,4,4,http://localhost:9966/petclinic/api/pets/5126,14,0,4
+1643567364269,8,DELETE /api/vets/1213,204,,PET CLINIC SUITES 1-5,,true,,236,266,4,4,http://localhost:9966/petclinic/api/vets/1213,0,0,0
+1643567364277,9,DELETE /api/owners/5123,204,,PET CLINIC SUITES 1-1,,true,,236,268,4,4,http://localhost:9966/petclinic/api/owners/5123,0,0,0
+1643567364276,10,POST /api/vets,201,,PET CLINIC SUITES 1-9,text,true,,471,360,4,4,http://localhost:9966/petclinic/api/vets,10,0,0
+1643567364275,12,PUT /api/pets/5129,204,,PET CLINIC SUITES 1-10,text,true,,282,749,4,4,http://localhost:9966/petclinic/api/pets/5129,0,0,0
+1643567364278,12,DELETE /api/specialties/4396,204,,PET CLINIC SUITES 1-5,,true,,236,273,4,4,http://localhost:9966/petclinic/api/specialties/4396,0,0,0
+1643567364288,7,DELETE /api/pettypes/1943,404,,PET CLINIC SUITES 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",255,270,3,3,http://localhost:9966/petclinic/api/pettypes/1943,7,0,0
+1643567364296,10,DELETE /api/vets/1212,204,,PET CLINIC SUITES 1-1,,true,,236,266,4,4,http://localhost:9966/petclinic/api/vets/1212,0,0,0
+1643567364288,9,GET /api/pets/5129,200,,PET CLINIC SUITES 1-10,text,true,,591,180,3,3,http://localhost:9966/petclinic/api/pets/5129,9,0,0
+1643567364307,12,DELETE /api/specialties/4397,204,,PET CLINIC SUITES 1-1,,true,,236,273,4,4,http://localhost:9966/petclinic/api/specialties/4397,0,0,0
+1643567364308,11,POST /api/pettypes,201,,PET CLINIC SUITES 1-12,text,true,,400,265,4,4,http://localhost:9966/petclinic/api/pettypes,11,0,2
+1643567364312,11,POST /api/specialties,201,,PET CLINIC SUITES 1-10,text,true,,410,276,3,3,http://localhost:9966/petclinic/api/specialties,11,0,0
+1643567364288,16,GET /api/vets,200,,PET CLINIC SUITES 1-9,text,true,,16323,175,4,4,http://localhost:9966/petclinic/api/vets,16,0,0
+1643567364328,8,PUT /api/vets/1214,204,,PET CLINIC SUITES 1-9,text,true,,282,380,3,3,http://localhost:9966/petclinic/api/vets/1214,0,0,0
+1643567364337,9,GET /api/vets/1214,200,,PET CLINIC SUITES 1-9,text,true,,453,180,3,3,http://localhost:9966/petclinic/api/vets/1214,9,0,0
+1643567364357,10,POST /api/visits,201,,PET CLINIC SUITES 1-9,text,true,,714,710,4,4,http://localhost:9966/petclinic/api/visits,10,0,0
+1643567364321,16,GET /api/pettypes,200,,PET CLINIC SUITES 1-12,text,true,,25421,179,3,3,http://localhost:9966/petclinic/api/pettypes,15,0,0
+1643567364324,22,GET /api/specialties,200,,PET CLINIC SUITES 1-10,text,true,,47889,182,3,3,http://localhost:9966/petclinic/api/specialties,17,0,0
+1643567364368,11,POST /api/pettypes,201,,PET CLINIC SUITES 1-11,text,true,,400,265,4,4,http://localhost:9966/petclinic/api/pettypes,11,0,2
+1643567364378,8,PUT /api/pettypes/1952,204,,PET CLINIC SUITES 1-12,text,true,,282,277,4,4,http://localhost:9966/petclinic/api/pettypes/1952,0,0,0
+1643567364378,9,PUT /api/specialties/4399,204,,PET CLINIC SUITES 1-10,text,true,,282,288,4,4,http://localhost:9966/petclinic/api/specialties/4399,0,0,0
+1643567364368,16,GET /api/visits,200,,PET CLINIC SUITES 1-9,text,true,,7273,177,4,4,http://localhost:9966/petclinic/api/visits,15,0,0
+1643567364388,8,GET /api/specialties/4399,200,,PET CLINIC SUITES 1-10,text,true,,361,187,4,4,http://localhost:9966/petclinic/api/specialties/4399,8,0,0
+1643567364388,8,GET /api/pettypes/1952,200,,PET CLINIC SUITES 1-12,text,true,,353,184,4,4,http://localhost:9966/petclinic/api/pettypes/1952,8,0,0
+1643567364400,10,PUT /api/visits/5069,204,,PET CLINIC SUITES 1-9,text,true,,282,722,4,4,http://localhost:9966/petclinic/api/visits/5069,0,0,0
+1643567364406,8,POST /api/vets,201,,PET CLINIC SUITES 1-10,text,true,,471,360,4,4,http://localhost:9966/petclinic/api/vets,8,0,0
+1643567364406,8,POST /api/owners,201,,PET CLINIC SUITES 1-12,text,true,,522,407,4,4,http://localhost:9966/petclinic/api/owners,8,0,0
+1643567364380,14,GET /api/pettypes,200,,PET CLINIC SUITES 1-11,text,true,,25454,179,4,4,http://localhost:9966/petclinic/api/pettypes,13,0,0
+1643567364423,9,PUT /api/pettypes/1953,204,,PET CLINIC SUITES 1-11,text,true,,282,277,4,4,http://localhost:9966/petclinic/api/pettypes/1953,0,0,0
+1643567364411,11,GET /api/visits/5069,200,,PET CLINIC SUITES 1-9,text,true,,672,182,4,4,http://localhost:9966/petclinic/api/visits/5069,10,0,0
+1643567364434,9,DELETE /api/visits/5069,204,,PET CLINIC SUITES 1-9,,true,,236,268,4,4,http://localhost:9966/petclinic/api/visits/5069,0,0,0
+1643567364415,23,GET /api/owners,200,,PET CLINIC SUITES 1-12,text,true,,24567,177,4,4,http://localhost:9966/petclinic/api/owners,23,0,0
+1643567364414,18,GET /api/vets,200,,PET CLINIC SUITES 1-10,text,true,,16323,175,4,4,http://localhost:9966/petclinic/api/vets,18,0,0
+1643567364445,10,DELETE /api/pets/5128,204,,PET CLINIC SUITES 1-9,,true,,236,266,4,4,http://localhost:9966/petclinic/api/pets/5128,0,0,0
+1643567364451,8,PUT /api/vets/1215,204,,PET CLINIC SUITES 1-10,text,true,,282,380,4,4,http://localhost:9966/petclinic/api/vets/1215,0,0,0
+1643567364456,8,DELETE /api/owners/5128,204,,PET CLINIC SUITES 1-9,,true,,236,268,4,4,http://localhost:9966/petclinic/api/owners/5128,0,0,0
+1643567364450,7,GET /api/owners/*/lastname/Testev6326,200,,PET CLINIC SUITES 1-12,text,true,,465,199,4,4,http://localhost:9966/petclinic/api/owners/*/lastname/Testev6326,7,0,0
+1643567364460,8,GET /api/vets/1215,200,,PET CLINIC SUITES 1-10,text,true,,453,180,4,4,http://localhost:9966/petclinic/api/vets/1215,8,0,0
+1643567364465,11,DELETE /api/pettypes/1949,204,,PET CLINIC SUITES 1-9,,true,,236,270,4,4,http://localhost:9966/petclinic/api/pettypes/1949,0,0,0
+1643567364468,9,PUT /api/owners/5130,204,,PET CLINIC SUITES 1-12,text,true,,282,430,4,4,http://localhost:9966/petclinic/api/owners/5130,0,0,0
+1643567364477,7,DELETE /api/vets/1214,204,,PET CLINIC SUITES 1-9,,true,,236,266,4,4,http://localhost:9966/petclinic/api/vets/1214,0,0,0
+1643567364478,7,POST /api/visits,201,,PET CLINIC SUITES 1-10,text,true,,714,710,4,4,http://localhost:9966/petclinic/api/visits,7,0,0
+1643567364478,6,GET /api/owners/5130,200,,PET CLINIC SUITES 1-12,text,true,,479,182,4,4,http://localhost:9966/petclinic/api/owners/5130,6,0,0
+1643567364485,9,DELETE /api/specialties/4398,204,,PET CLINIC SUITES 1-9,,true,,236,273,4,4,http://localhost:9966/petclinic/api/specialties/4398,0,0,0
+1643567364492,9,POST /api/pets,201,,PET CLINIC SUITES 1-12,text,true,,630,589,5,5,http://localhost:9966/petclinic/api/pets,9,0,0
+1643567364498,13,POST /api/pettypes,201,,PET CLINIC SUITES 1-13,text,true,,400,265,4,4,http://localhost:9966/petclinic/api/pettypes,13,0,2
+1643567364486,17,GET /api/visits,200,,PET CLINIC SUITES 1-10,text,true,,7273,177,4,4,http://localhost:9966/petclinic/api/visits,17,0,0
+1643567364517,11,PUT /api/visits/5070,204,,PET CLINIC SUITES 1-10,text,true,,282,722,4,4,http://localhost:9966/petclinic/api/visits/5070,0,0,0
+1643567364504,26,GET /api/pets,200,,PET CLINIC SUITES 1-12,text,true,,16326,175,4,4,http://localhost:9966/petclinic/api/pets,26,0,0
+1643567364530,10,GET /api/visits/5070,200,,PET CLINIC SUITES 1-10,text,true,,672,182,4,4,http://localhost:9966/petclinic/api/visits/5070,9,0,0
+1643567364511,14,GET /api/pettypes,200,,PET CLINIC SUITES 1-13,text,true,,25454,179,4,4,http://localhost:9966/petclinic/api/pettypes,13,0,0
+1643567364543,10,PUT /api/pets/5130,204,,PET CLINIC SUITES 1-12,text,true,,282,749,4,4,http://localhost:9966/petclinic/api/pets/5130,0,0,0
+1643567364433,9,GET /api/pettypes/1953,200,,PET CLINIC SUITES 1-11,text,true,,353,184,4,4,http://localhost:9966/petclinic/api/pettypes/1953,9,0,0
+1643567364548,10,DELETE /api/visits/5070,204,,PET CLINIC SUITES 1-10,,true,,236,268,4,4,http://localhost:9966/petclinic/api/visits/5070,0,0,0
+1643567364549,9,PUT /api/pettypes/1954,204,,PET CLINIC SUITES 1-13,text,true,,282,277,4,4,http://localhost:9966/petclinic/api/pettypes/1954,0,0,0
+1643567364558,13,DELETE /api/pets/5129,204,,PET CLINIC SUITES 1-10,,true,,236,266,4,4,http://localhost:9966/petclinic/api/pets/5129,0,0,0
+1643567364561,10,POST /api/owners,201,,PET CLINIC SUITES 1-11,text,true,,522,407,4,4,http://localhost:9966/petclinic/api/owners,10,0,0
+1643567364554,8,GET /api/pets/5130,200,,PET CLINIC SUITES 1-12,text,true,,591,180,4,4,http://localhost:9966/petclinic/api/pets/5130,8,0,0
+1643567364559,9,GET /api/pettypes/1954,200,,PET CLINIC SUITES 1-13,text,true,,353,184,4,4,http://localhost:9966/petclinic/api/pettypes/1954,9,0,0
+1643567364572,9,DELETE /api/owners/5129,204,,PET CLINIC SUITES 1-10,,true,,236,268,4,4,http://localhost:9966/petclinic/api/owners/5129,0,0,0
+1643567364573,9,POST /api/specialties,201,,PET CLINIC SUITES 1-12,text,true,,410,276,4,4,http://localhost:9966/petclinic/api/specialties,9,0,0
+1643567364577,10,POST /api/owners,201,,PET CLINIC SUITES 1-13,text,true,,522,407,4,4,http://localhost:9966/petclinic/api/owners,10,0,0
+1643567364582,14,DELETE /api/pettypes/1951,204,,PET CLINIC SUITES 1-10,,true,,236,270,4,4,http://localhost:9966/petclinic/api/pettypes/1951,0,0,0
+1643567364597,10,DELETE /api/vets/1215,204,,PET CLINIC SUITES 1-10,,true,,236,266,4,4,http://localhost:9966/petclinic/api/vets/1215,0,0,0
+1643567364572,30,GET /api/owners,200,,PET CLINIC SUITES 1-11,text,true,,24345,177,4,4,http://localhost:9966/petclinic/api/owners,28,0,0
+1643567364608,13,DELETE /api/specialties/4399,204,,PET CLINIC SUITES 1-10,,true,,236,273,4,4,http://localhost:9966/petclinic/api/specialties/4399,0,0,0
+1643567364583,15,GET /api/specialties,200,,PET CLINIC SUITES 1-12,text,true,,47889,182,4,4,http://localhost:9966/petclinic/api/specialties,13,0,0
+1643567364589,30,GET /api/owners,200,,PET CLINIC SUITES 1-13,text,true,,24329,177,4,4,http://localhost:9966/petclinic/api/owners,29,0,0
+1643567364613,11,GET /api/owners/*/lastname/Testev5356,200,,PET CLINIC SUITES 1-11,text,true,,465,199,3,3,http://localhost:9966/petclinic/api/owners/*/lastname/Testev5356,10,0,0
+1643567364629,8,PUT /api/specialties/4400,204,,PET CLINIC SUITES 1-12,text,true,,282,288,3,3,http://localhost:9966/petclinic/api/specialties/4400,0,0,0
+1643567364633,11,PUT /api/owners/5131,204,,PET CLINIC SUITES 1-11,text,true,,282,430,3,3,http://localhost:9966/petclinic/api/owners/5131,0,0,0
+1643567364630,7,GET /api/owners/*/lastname/Testev9241,200,,PET CLINIC SUITES 1-13,text,true,,465,199,3,3,http://localhost:9966/petclinic/api/owners/*/lastname/Testev9241,7,0,0
+1643567364638,10,GET /api/specialties/4400,200,,PET CLINIC SUITES 1-12,text,true,,361,187,3,3,http://localhost:9966/petclinic/api/specialties/4400,9,0,0
+1643567364647,8,PUT /api/owners/5132,204,,PET CLINIC SUITES 1-13,text,true,,282,430,3,3,http://localhost:9966/petclinic/api/owners/5132,0,0,0
+1643567364646,8,GET /api/owners/5131,200,,PET CLINIC SUITES 1-11,text,true,,479,182,3,3,http://localhost:9966/petclinic/api/owners/5131,8,0,0
+1643567364657,10,POST /api/vets,201,,PET CLINIC SUITES 1-12,text,true,,471,360,3,3,http://localhost:9966/petclinic/api/vets,10,0,0
+1643567364663,9,POST /api/pets,201,,PET CLINIC SUITES 1-11,text,true,,630,589,3,3,http://localhost:9966/petclinic/api/pets,9,0,0
+1643567364656,8,GET /api/owners/5132,200,,PET CLINIC SUITES 1-13,text,true,,479,182,3,3,http://localhost:9966/petclinic/api/owners/5132,8,0,0
+1643567364675,9,POST /api/pets,201,,PET CLINIC SUITES 1-13,text,true,,630,589,3,3,http://localhost:9966/petclinic/api/pets,9,0,0
+1643567364673,21,GET /api/pets,200,,PET CLINIC SUITES 1-11,text,true,,16237,175,3,3,http://localhost:9966/petclinic/api/pets,21,0,0
+1643567364685,17,GET /api/pets,200,,PET CLINIC SUITES 1-13,text,true,,16499,175,3,3,http://localhost:9966/petclinic/api/pets,17,0,0
+1643567364702,8,PUT /api/pets/5131,204,,PET CLINIC SUITES 1-11,text,true,,282,749,3,3,http://localhost:9966/petclinic/api/pets/5131,0,0,0
+1643567364710,8,PUT /api/pets/5132,204,,PET CLINIC SUITES 1-13,text,true,,282,749,3,3,http://localhost:9966/petclinic/api/pets/5132,0,0,0
+1643567364711,6,GET /api/pets/5131,200,,PET CLINIC SUITES 1-11,text,true,,591,180,3,3,http://localhost:9966/petclinic/api/pets/5131,6,0,0
+1643567364725,7,POST /api/specialties,201,,PET CLINIC SUITES 1-11,text,true,,410,276,3,3,http://localhost:9966/petclinic/api/specialties,7,0,0
+1643567364719,8,GET /api/pets/5132,200,,PET CLINIC SUITES 1-13,text,true,,591,180,3,3,http://localhost:9966/petclinic/api/pets/5132,8,0,0
+1643567364734,7,POST /api/specialties,201,,PET CLINIC SUITES 1-13,text,true,,410,276,3,3,http://localhost:9966/petclinic/api/specialties,7,0,0
+1643567364747,14,POST /api/pettypes,201,,PET CLINIC SUITES 1-14,text,true,,400,265,4,4,http://localhost:9966/petclinic/api/pettypes,14,0,3
+1643567364733,14,GET /api/specialties,200,,PET CLINIC SUITES 1-11,text,true,,47889,182,4,4,http://localhost:9966/petclinic/api/specialties,13,0,0
+1643567364742,14,GET /api/specialties,200,,PET CLINIC SUITES 1-13,text,true,,47922,182,4,4,http://localhost:9966/petclinic/api/specialties,13,0,0
+1643567364778,8,PUT /api/specialties/4401,204,,PET CLINIC SUITES 1-11,text,true,,282,288,4,4,http://localhost:9966/petclinic/api/specialties/4401,0,0,0
+1643567364782,8,PUT /api/specialties/4401,204,,PET CLINIC SUITES 1-13,text,true,,282,288,4,4,http://localhost:9966/petclinic/api/specialties/4401,0,0,0
+1643567364762,16,GET /api/pettypes,200,,PET CLINIC SUITES 1-14,text,true,,25454,179,4,4,http://localhost:9966/petclinic/api/pettypes,15,0,0
+1643567364787,7,GET /api/specialties/4401,200,,PET CLINIC SUITES 1-11,text,true,,361,187,4,4,http://localhost:9966/petclinic/api/specialties/4401,7,0,0
+1643567364791,6,GET /api/specialties/4401,200,,PET CLINIC SUITES 1-13,text,true,,361,187,4,4,http://localhost:9966/petclinic/api/specialties/4401,6,0,0
+1643567364798,10,PUT /api/pettypes/1956,204,,PET CLINIC SUITES 1-14,text,true,,282,277,4,4,http://localhost:9966/petclinic/api/pettypes/1956,0,0,0
+1643567364800,9,POST /api/vets,201,,PET CLINIC SUITES 1-11,text,true,,471,360,4,4,http://localhost:9966/petclinic/api/vets,9,0,0
+1643567364805,8,POST /api/vets,201,,PET CLINIC SUITES 1-13,text,true,,471,360,4,4,http://localhost:9966/petclinic/api/vets,7,0,0
+1643567364668,16,GET /api/vets,200,,PET CLINIC SUITES 1-12,text,true,,16190,175,3,3,http://localhost:9966/petclinic/api/vets,16,0,0
+1643567364808,7,GET /api/pettypes/1956,200,,PET CLINIC SUITES 1-14,text,true,,353,184,4,4,http://localhost:9966/petclinic/api/pettypes/1956,7,0,0
+1643567364819,7,PUT /api/vets/1216,204,,PET CLINIC SUITES 1-12,text,true,,282,380,4,4,http://localhost:9966/petclinic/api/vets/1216,0,0,0
+1643567364823,8,POST /api/owners,201,,PET CLINIC SUITES 1-14,text,true,,522,407,4,4,http://localhost:9966/petclinic/api/owners,7,0,0
+1643567364827,7,GET /api/vets/1216,200,,PET CLINIC SUITES 1-12,text,true,,453,180,4,4,http://localhost:9966/petclinic/api/vets/1216,7,0,0
+1643567364809,14,GET /api/vets,200,,PET CLINIC SUITES 1-11,text,true,,16424,175,4,4,http://localhost:9966/petclinic/api/vets,14,0,0
+1643567364813,13,GET /api/vets,200,,PET CLINIC SUITES 1-13,text,true,,16424,175,4,4,http://localhost:9966/petclinic/api/vets,13,0,0
+1643567364842,7,PUT /api/vets/1217,204,,PET CLINIC SUITES 1-11,text,true,,282,380,4,4,http://localhost:9966/petclinic/api/vets/1217,0,0,0
+1643567364841,8,POST /api/visits,201,,PET CLINIC SUITES 1-12,text,true,,714,710,4,4,http://localhost:9966/petclinic/api/visits,8,0,0
+1643567364844,8,PUT /api/vets/1218,204,,PET CLINIC SUITES 1-13,text,true,,282,380,4,4,http://localhost:9966/petclinic/api/vets/1218,0,0,0
+1643567364833,20,GET /api/owners,200,,PET CLINIC SUITES 1-14,text,true,,24754,177,4,4,http://localhost:9966/petclinic/api/owners,19,0,0
+1643567364850,8,GET /api/vets/1217,200,,PET CLINIC SUITES 1-11,text,true,,453,180,4,4,http://localhost:9966/petclinic/api/vets/1217,8,0,0
+1643567364851,10,GET /api/visits,200,,PET CLINIC SUITES 1-12,text,true,,7273,177,4,4,http://localhost:9966/petclinic/api/visits,10,0,0
+1643567364868,9,POST /api/visits,201,,PET CLINIC SUITES 1-11,text,true,,714,710,4,4,http://localhost:9966/petclinic/api/visits,9,0,0
+1643567364862,13,GET /api/owners/*/lastname/Testev1472,200,,PET CLINIC SUITES 1-14,text,true,,465,199,4,4,http://localhost:9966/petclinic/api/owners/*/lastname/Testev1472,11,0,0
+1643567364871,12,PUT /api/visits/5071,204,,PET CLINIC SUITES 1-12,text,true,,282,722,4,4,http://localhost:9966/petclinic/api/visits/5071,0,0,0
+1643567364880,16,GET /api/visits,200,,PET CLINIC SUITES 1-11,text,true,,7624,177,4,4,http://localhost:9966/petclinic/api/visits,15,0,0
+1643567364895,13,PUT /api/owners/5133,204,,PET CLINIC SUITES 1-14,text,true,,282,430,4,4,http://localhost:9966/petclinic/api/owners/5133,0,0,0
+1643567364886,21,GET /api/visits/5071,200,,PET CLINIC SUITES 1-12,text,true,,672,182,4,4,http://localhost:9966/petclinic/api/visits/5071,21,0,0
+1643567364906,20,PUT /api/visits/5072,204,,PET CLINIC SUITES 1-11,text,true,,282,722,4,4,http://localhost:9966/petclinic/api/visits/5072,0,0,0
+1643567364927,12,DELETE /api/visits/5071,204,,PET CLINIC SUITES 1-12,,true,,236,268,5,5,http://localhost:9966/petclinic/api/visits/5071,0,0,0
+1643567364928,11,GET /api/visits/5072,200,,PET CLINIC SUITES 1-11,text,true,,672,182,5,5,http://localhost:9966/petclinic/api/visits/5072,11,0,0
+1643567364909,19,GET /api/owners/5133,200,,PET CLINIC SUITES 1-14,text,true,,479,182,4,4,http://localhost:9966/petclinic/api/owners/5133,19,0,0
+1643567364934,16,POST /api/pettypes,201,,PET CLINIC SUITES 1-15,text,true,,400,265,5,5,http://localhost:9966/petclinic/api/pettypes,16,0,3
+1643567364941,11,DELETE /api/pets/5130,204,,PET CLINIC SUITES 1-12,,true,,236,266,5,5,http://localhost:9966/petclinic/api/pets/5130,0,0,0
+1643567364949,10,DELETE /api/visits/5072,204,,PET CLINIC SUITES 1-11,,true,,236,268,5,5,http://localhost:9966/petclinic/api/visits/5072,0,0,0
+1643567364952,11,DELETE /api/owners/5130,204,,PET CLINIC SUITES 1-12,,true,,236,268,5,5,http://localhost:9966/petclinic/api/owners/5130,0,0,0
+1643567364950,13,POST /api/pets,201,,PET CLINIC SUITES 1-14,text,true,,630,589,5,5,http://localhost:9966/petclinic/api/pets,13,0,0
+1643567364960,12,DELETE /api/pets/5131,204,,PET CLINIC SUITES 1-11,,true,,236,266,5,5,http://localhost:9966/petclinic/api/pets/5131,0,0,0
+1643567364964,12,DELETE /api/pettypes/1952,204,,PET CLINIC SUITES 1-12,,true,,236,270,5,5,http://localhost:9966/petclinic/api/pettypes/1952,0,0,0
+1643567364853,7,GET /api/vets/1218,200,,PET CLINIC SUITES 1-13,text,true,,453,180,4,4,http://localhost:9966/petclinic/api/vets/1218,7,0,0
+1643567364973,9,DELETE /api/owners/5131,204,,PET CLINIC SUITES 1-11,,true,,236,268,5,5,http://localhost:9966/petclinic/api/owners/5131,0,0,0
+1643567364977,8,DELETE /api/vets/1216,204,,PET CLINIC SUITES 1-12,,true,,236,266,5,5,http://localhost:9966/petclinic/api/vets/1216,0,0,0
+1643567364950,12,GET /api/pettypes,200,,PET CLINIC SUITES 1-15,text,true,,25487,179,5,5,http://localhost:9966/petclinic/api/pettypes,12,0,0
+1643567364981,8,POST /api/visits,201,,PET CLINIC SUITES 1-13,text,true,,714,710,5,5,http://localhost:9966/petclinic/api/visits,8,0,0
+1643567364982,11,DELETE /api/pettypes/1953,204,,PET CLINIC SUITES 1-11,,true,,236,270,5,5,http://localhost:9966/petclinic/api/pettypes/1953,0,0,0
+1643567364965,20,GET /api/pets,200,,PET CLINIC SUITES 1-14,text,true,,16237,175,5,5,http://localhost:9966/petclinic/api/pets,20,0,0
+1643567364986,9,DELETE /api/specialties/4400,204,,PET CLINIC SUITES 1-12,,true,,236,273,5,5,http://localhost:9966/petclinic/api/specialties/4400,0,0,0
+1643567364987,8,PUT /api/pettypes/1957,204,,PET CLINIC SUITES 1-15,text,true,,282,277,5,5,http://localhost:9966/petclinic/api/pettypes/1957,0,0,0
+1643567364994,8,DELETE /api/vets/1217,204,,PET CLINIC SUITES 1-11,,true,,236,266,4,4,http://localhost:9966/petclinic/api/vets/1217,0,0,0
+1643567364996,10,PUT /api/pets/5133,204,,PET CLINIC SUITES 1-14,text,true,,282,749,4,4,http://localhost:9966/petclinic/api/pets/5133,0,0,0
+1643567364995,7,GET /api/pettypes/1957,200,,PET CLINIC SUITES 1-15,text,true,,353,184,4,4,http://localhost:9966/petclinic/api/pettypes/1957,7,0,0
+1643567365002,9,DELETE /api/specialties/4401,400,,PET CLINIC SUITES 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/",594,273,4,4,http://localhost:9966/petclinic/api/specialties/4401,9,0,0
+1643567364990,14,GET /api/visits,200,,PET CLINIC SUITES 1-13,text,true,,7273,177,4,4,http://localhost:9966/petclinic/api/visits,14,0,0
+1643567365010,7,POST /api/owners,201,,PET CLINIC SUITES 1-15,text,true,,522,407,3,3,http://localhost:9966/petclinic/api/owners,6,0,0
+1643567365007,7,GET /api/pets/5133,200,,PET CLINIC SUITES 1-14,text,true,,591,180,3,3,http://localhost:9966/petclinic/api/pets/5133,7,0,0
+1643567365015,7,PUT /api/visits/5073,204,,PET CLINIC SUITES 1-13,text,true,,282,722,3,3,http://localhost:9966/petclinic/api/visits/5073,0,0,0
+1643567365019,6,POST /api/specialties,201,,PET CLINIC SUITES 1-14,text,true,,410,276,3,3,http://localhost:9966/petclinic/api/specialties,6,0,0
+1643567365023,5,GET /api/visits/5073,200,,PET CLINIC SUITES 1-13,text,true,,672,182,3,3,http://localhost:9966/petclinic/api/visits/5073,5,0,0
+1643567365018,14,GET /api/owners,200,,PET CLINIC SUITES 1-15,text,true,,24567,177,3,3,http://localhost:9966/petclinic/api/owners,14,0,0
+1643567365035,9,DELETE /api/visits/5073,204,,PET CLINIC SUITES 1-13,,true,,236,268,3,3,http://localhost:9966/petclinic/api/visits/5073,0,0,0
+1643567365044,9,DELETE /api/pets/5132,204,,PET CLINIC SUITES 1-13,,true,,236,266,3,3,http://localhost:9966/petclinic/api/pets/5132,0,0,0
+1643567365042,6,GET /api/owners/*/lastname/Testev9394,200,,PET CLINIC SUITES 1-15,text,true,,465,199,3,3,http://localhost:9966/petclinic/api/owners/*/lastname/Testev9394,6,0,0
+1643567365026,13,GET /api/specialties,200,,PET CLINIC SUITES 1-14,text,true,,47922,182,3,3,http://localhost:9966/petclinic/api/specialties,12,0,0
+1643567365054,7,DELETE /api/owners/5132,204,,PET CLINIC SUITES 1-13,,true,,236,268,3,3,http://localhost:9966/petclinic/api/owners/5132,0,0,0
+1643567365056,7,PUT /api/owners/5134,204,,PET CLINIC SUITES 1-15,text,true,,282,430,3,3,http://localhost:9966/petclinic/api/owners/5134,0,0,0
+1643567365059,7,PUT /api/specialties/4402,204,,PET CLINIC SUITES 1-14,text,true,,282,288,3,3,http://localhost:9966/petclinic/api/specialties/4402,0,0,0
+1643567365061,8,DELETE /api/pettypes/1954,204,,PET CLINIC SUITES 1-13,,true,,236,270,3,3,http://localhost:9966/petclinic/api/pettypes/1954,0,0,0
+1643567365064,5,GET /api/owners/5134,200,,PET CLINIC SUITES 1-15,text,true,,479,182,3,3,http://localhost:9966/petclinic/api/owners/5134,5,0,0
+1643567365070,6,DELETE /api/vets/1218,204,,PET CLINIC SUITES 1-13,,true,,236,266,3,3,http://localhost:9966/petclinic/api/vets/1218,0,0,0
+1643567365067,6,GET /api/specialties/4402,200,,PET CLINIC SUITES 1-14,text,true,,361,187,3,3,http://localhost:9966/petclinic/api/specialties/4402,5,0,0
+1643567365076,6,DELETE /api/specialties/4401,204,,PET CLINIC SUITES 1-13,,true,,236,273,3,3,http://localhost:9966/petclinic/api/specialties/4401,0,0,0
+1643567365076,7,POST /api/pets,201,,PET CLINIC SUITES 1-15,text,true,,630,589,3,3,http://localhost:9966/petclinic/api/pets,7,0,0
+1643567365079,8,POST /api/vets,201,,PET CLINIC SUITES 1-14,text,true,,471,360,2,2,http://localhost:9966/petclinic/api/vets,8,0,0
+1643567365083,16,GET /api/pets,200,,PET CLINIC SUITES 1-15,text,true,,16237,175,2,2,http://localhost:9966/petclinic/api/pets,15,0,0
+1643567365087,12,GET /api/vets,200,,PET CLINIC SUITES 1-14,text,true,,16190,175,2,2,http://localhost:9966/petclinic/api/vets,11,0,0
+1643567365105,8,PUT /api/pets/5134,204,,PET CLINIC SUITES 1-15,text,true,,282,749,2,2,http://localhost:9966/petclinic/api/pets/5134,0,0,0
+1643567365112,6,PUT /api/vets/1219,204,,PET CLINIC SUITES 1-14,text,true,,282,380,2,2,http://localhost:9966/petclinic/api/vets/1219,0,0,0
+1643567365113,5,GET /api/pets/5134,200,,PET CLINIC SUITES 1-15,text,true,,591,180,2,2,http://localhost:9966/petclinic/api/pets/5134,5,0,0
+1643567365119,7,GET /api/vets/1219,200,,PET CLINIC SUITES 1-14,text,true,,453,180,2,2,http://localhost:9966/petclinic/api/vets/1219,7,0,0
+1643567365126,7,POST /api/specialties,201,,PET CLINIC SUITES 1-15,text,true,,410,276,2,2,http://localhost:9966/petclinic/api/specialties,7,0,0
+1643567365134,8,POST /api/visits,201,,PET CLINIC SUITES 1-14,text,true,,714,710,2,2,http://localhost:9966/petclinic/api/visits,8,0,0
+1643567365143,11,GET /api/visits,200,,PET CLINIC SUITES 1-14,text,true,,7273,177,2,2,http://localhost:9966/petclinic/api/visits,10,0,0
+1643567365133,11,GET /api/specialties,200,,PET CLINIC SUITES 1-15,text,true,,47922,182,2,2,http://localhost:9966/petclinic/api/specialties,11,0,0
+1643567365160,5,PUT /api/specialties/4403,204,,PET CLINIC SUITES 1-15,text,true,,282,288,2,2,http://localhost:9966/petclinic/api/specialties/4403,0,0,0
+1643567365160,6,PUT /api/visits/5074,204,,PET CLINIC SUITES 1-14,text,true,,282,722,2,2,http://localhost:9966/petclinic/api/visits/5074,0,0,0
+1643567365166,5,GET /api/specialties/4403,200,,PET CLINIC SUITES 1-15,text,true,,361,187,2,2,http://localhost:9966/petclinic/api/specialties/4403,5,0,0
+1643567365177,5,POST /api/vets,201,,PET CLINIC SUITES 1-15,text,true,,471,360,2,2,http://localhost:9966/petclinic/api/vets,5,0,0
+1643567365183,11,GET /api/vets,200,,PET CLINIC SUITES 1-15,text,true,,16323,175,2,2,http://localhost:9966/petclinic/api/vets,10,0,0
+1643567365205,7,PUT /api/vets/1220,204,,PET CLINIC SUITES 1-15,text,true,,282,380,2,2,http://localhost:9966/petclinic/api/vets/1220,0,0,0
+1643567365213,6,GET /api/vets/1220,200,,PET CLINIC SUITES 1-15,text,true,,453,180,2,2,http://localhost:9966/petclinic/api/vets/1220,6,0,0
+1643567365227,11,POST /api/visits,201,,PET CLINIC SUITES 1-15,text,true,,714,710,3,3,http://localhost:9966/petclinic/api/visits,11,0,0
+1643567365227,13,POST /api/pettypes,201,,PET CLINIC SUITES 1-16,text,true,,400,265,3,3,http://localhost:9966/petclinic/api/pettypes,13,0,3
+1643567365239,11,GET /api/visits,200,,PET CLINIC SUITES 1-15,text,true,,7624,177,3,3,http://localhost:9966/petclinic/api/visits,11,0,0
+1643567365257,7,PUT /api/visits/5075,204,,PET CLINIC SUITES 1-15,text,true,,282,722,3,3,http://localhost:9966/petclinic/api/visits/5075,0,0,0
+1643567365241,9,GET /api/pettypes,200,,PET CLINIC SUITES 1-16,text,true,,25421,179,3,3,http://localhost:9966/petclinic/api/pettypes,9,0,0
+1643567365266,8,PUT /api/pettypes/1958,204,,PET CLINIC SUITES 1-16,text,true,,282,277,3,3,http://localhost:9966/petclinic/api/pettypes/1958,0,0,0
+1643567365166,5,GET /api/visits/5074,200,,PET CLINIC SUITES 1-14,text,true,,672,182,2,2,http://localhost:9966/petclinic/api/visits/5074,5,0,0
+1643567365265,7,GET /api/visits/5075,200,,PET CLINIC SUITES 1-15,text,true,,672,182,3,3,http://localhost:9966/petclinic/api/visits/5075,7,0,0
+1643567365278,7,DELETE /api/visits/5074,204,,PET CLINIC SUITES 1-14,,true,,236,268,3,3,http://localhost:9966/petclinic/api/visits/5074,0,0,0
+1643567365275,7,GET /api/pettypes/1958,200,,PET CLINIC SUITES 1-16,text,true,,353,184,3,3,http://localhost:9966/petclinic/api/pettypes/1958,7,0,0
+1643567365280,7,DELETE /api/visits/5075,204,,PET CLINIC SUITES 1-15,,true,,236,268,3,3,http://localhost:9966/petclinic/api/visits/5075,0,0,0
+1643567365286,8,DELETE /api/pets/5133,204,,PET CLINIC SUITES 1-14,,true,,236,266,3,3,http://localhost:9966/petclinic/api/pets/5133,0,0,0
+1643567365288,6,POST /api/owners,201,,PET CLINIC SUITES 1-16,text,true,,522,407,3,3,http://localhost:9966/petclinic/api/owners,6,0,0
+1643567365287,8,DELETE /api/pets/5134,204,,PET CLINIC SUITES 1-15,,true,,236,266,3,3,http://localhost:9966/petclinic/api/pets/5134,0,0,0
+1643567365294,6,DELETE /api/owners/5133,204,,PET CLINIC SUITES 1-14,,true,,236,268,3,3,http://localhost:9966/petclinic/api/owners/5133,0,0,0
+1643567365295,7,DELETE /api/owners/5134,204,,PET CLINIC SUITES 1-15,,true,,236,268,3,3,http://localhost:9966/petclinic/api/owners/5134,0,0,0
+1643567365302,6,DELETE /api/pettypes/1957,204,,PET CLINIC SUITES 1-15,,true,,236,270,3,3,http://localhost:9966/petclinic/api/pettypes/1957,0,0,0
+1643567365301,7,DELETE /api/pettypes/1956,204,,PET CLINIC SUITES 1-14,,true,,236,270,3,3,http://localhost:9966/petclinic/api/pettypes/1956,0,0,0
+1643567365309,6,DELETE /api/vets/1220,204,,PET CLINIC SUITES 1-15,,true,,236,266,3,3,http://localhost:9966/petclinic/api/vets/1220,0,0,0
+1643567365309,6,DELETE /api/vets/1219,204,,PET CLINIC SUITES 1-14,,true,,236,266,3,3,http://localhost:9966/petclinic/api/vets/1219,0,0,0
+1643567365295,17,GET /api/owners,200,,PET CLINIC SUITES 1-16,text,true,,24220,177,3,3,http://localhost:9966/petclinic/api/owners,17,0,0
+1643567365316,8,DELETE /api/specialties/4403,204,,PET CLINIC SUITES 1-15,,true,,236,273,3,3,http://localhost:9966/petclinic/api/specialties/4403,0,0,0
+1643567365316,11,DELETE /api/specialties/4402,204,,PET CLINIC SUITES 1-14,,true,,236,273,2,2,http://localhost:9966/petclinic/api/specialties/4402,0,0,0
+1643567365321,7,GET /api/owners/*/lastname/Testev6278,200,,PET CLINIC SUITES 1-16,text,true,,465,199,2,2,http://localhost:9966/petclinic/api/owners/*/lastname/Testev6278,7,0,0
+1643567365335,6,PUT /api/owners/5135,204,,PET CLINIC SUITES 1-16,text,true,,282,430,1,1,http://localhost:9966/petclinic/api/owners/5135,0,0,0
+1643567365341,5,GET /api/owners/5135,200,,PET CLINIC SUITES 1-16,text,true,,479,182,1,1,http://localhost:9966/petclinic/api/owners/5135,5,0,0
+1643567365351,7,POST /api/pets,201,,PET CLINIC SUITES 1-16,text,true,,630,589,1,1,http://localhost:9966/petclinic/api/pets,7,0,0
+1643567365358,11,GET /api/pets,200,,PET CLINIC SUITES 1-16,text,true,,15967,175,1,1,http://localhost:9966/petclinic/api/pets,11,0,0
+1643567365375,6,PUT /api/pets/5135,204,,PET CLINIC SUITES 1-16,text,true,,282,749,1,1,http://localhost:9966/petclinic/api/pets/5135,0,0,0
+1643567365382,5,GET /api/pets/5135,200,,PET CLINIC SUITES 1-16,text,true,,591,180,1,1,http://localhost:9966/petclinic/api/pets/5135,5,0,0
+1643567365393,6,POST /api/specialties,201,,PET CLINIC SUITES 1-16,text,true,,410,276,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1643567365399,9,GET /api/specialties,200,,PET CLINIC SUITES 1-16,text,true,,47881,182,1,1,http://localhost:9966/petclinic/api/specialties,9,0,0
+1643567365421,5,PUT /api/specialties/4404,204,,PET CLINIC SUITES 1-16,text,true,,282,288,1,1,http://localhost:9966/petclinic/api/specialties/4404,0,0,0
+1643567365426,6,GET /api/specialties/4404,200,,PET CLINIC SUITES 1-16,text,true,,361,187,1,1,http://localhost:9966/petclinic/api/specialties/4404,6,0,0
+1643567365438,6,POST /api/vets,201,,PET CLINIC SUITES 1-16,text,true,,471,360,2,2,http://localhost:9966/petclinic/api/vets,6,0,0
+1643567365444,8,POST /api/pettypes,201,,PET CLINIC SUITES 1-17,text,true,,400,265,2,2,http://localhost:9966/petclinic/api/pettypes,8,0,2
+1643567365444,12,GET /api/vets,200,,PET CLINIC SUITES 1-16,text,true,,16190,175,2,2,http://localhost:9966/petclinic/api/vets,12,0,0
+1643567365452,8,GET /api/pettypes,200,,PET CLINIC SUITES 1-17,text,true,,25388,179,2,2,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1643567365467,7,PUT /api/vets/1221,204,,PET CLINIC SUITES 1-16,text,true,,282,380,2,2,http://localhost:9966/petclinic/api/vets/1221,0,0,0
+1643567365474,5,PUT /api/pettypes/2954,204,,PET CLINIC SUITES 1-17,text,true,,282,277,2,2,http://localhost:9966/petclinic/api/pettypes/2954,0,0,0
+1643567365474,6,GET /api/vets/1221,200,,PET CLINIC SUITES 1-16,text,true,,453,180,2,2,http://localhost:9966/petclinic/api/vets/1221,6,0,0
+1643567365480,6,GET /api/pettypes/2954,200,,PET CLINIC SUITES 1-17,text,true,,353,184,2,2,http://localhost:9966/petclinic/api/pettypes/2954,6,0,0
+1643567365485,6,POST /api/visits,201,,PET CLINIC SUITES 1-16,text,true,,714,710,2,2,http://localhost:9966/petclinic/api/visits,6,0,0
+1643567365491,7,POST /api/owners,201,,PET CLINIC SUITES 1-17,text,true,,522,407,2,2,http://localhost:9966/petclinic/api/owners,7,0,0
+1643567365492,10,GET /api/visits,200,,PET CLINIC SUITES 1-16,text,true,,7273,177,2,2,http://localhost:9966/petclinic/api/visits,9,0,0
+1643567365509,8,PUT /api/visits/5076,204,,PET CLINIC SUITES 1-16,text,true,,282,722,2,2,http://localhost:9966/petclinic/api/visits/5076,0,0,0
+1643567365499,16,GET /api/owners,200,,PET CLINIC SUITES 1-17,text,true,,24275,177,2,2,http://localhost:9966/petclinic/api/owners,15,0,0
+1643567365518,6,GET /api/visits/5076,200,,PET CLINIC SUITES 1-16,text,true,,672,182,2,2,http://localhost:9966/petclinic/api/visits/5076,5,0,0
+1643567365521,6,GET /api/owners/*/lastname/Testev7183,200,,PET CLINIC SUITES 1-17,text,true,,465,199,2,2,http://localhost:9966/petclinic/api/owners/*/lastname/Testev7183,6,0,0
+1643567365528,7,DELETE /api/visits/5076,204,,PET CLINIC SUITES 1-16,,true,,236,268,2,2,http://localhost:9966/petclinic/api/visits/5076,0,0,0
+1643567365533,5,PUT /api/owners/5136,204,,PET CLINIC SUITES 1-17,text,true,,282,430,2,2,http://localhost:9966/petclinic/api/owners/5136,0,0,0
+1643567365535,7,DELETE /api/pets/5135,204,,PET CLINIC SUITES 1-16,,true,,236,266,2,2,http://localhost:9966/petclinic/api/pets/5135,0,0,0
+1643567365539,5,GET /api/owners/5136,200,,PET CLINIC SUITES 1-17,text,true,,479,182,2,2,http://localhost:9966/petclinic/api/owners/5136,5,0,0
+1643567365543,7,DELETE /api/owners/5135,204,,PET CLINIC SUITES 1-16,,true,,236,268,2,2,http://localhost:9966/petclinic/api/owners/5135,0,0,0
+1643567365550,7,DELETE /api/pettypes/1958,204,,PET CLINIC SUITES 1-16,,true,,236,270,2,2,http://localhost:9966/petclinic/api/pettypes/1958,0,0,0
+1643567365551,6,POST /api/pets,201,,PET CLINIC SUITES 1-17,text,true,,630,589,2,2,http://localhost:9966/petclinic/api/pets,6,0,0
+1643567365558,5,DELETE /api/vets/1221,204,,PET CLINIC SUITES 1-16,,true,,236,266,2,2,http://localhost:9966/petclinic/api/vets/1221,0,0,0
+1643567365563,6,DELETE /api/specialties/4404,204,,PET CLINIC SUITES 1-16,,true,,236,273,2,2,http://localhost:9966/petclinic/api/specialties/4404,0,0,0
+1643567365558,11,GET /api/pets,200,,PET CLINIC SUITES 1-17,text,true,,15967,175,2,2,http://localhost:9966/petclinic/api/pets,11,0,0
+1643567365577,6,PUT /api/pets/5136,204,,PET CLINIC SUITES 1-17,text,true,,282,749,1,1,http://localhost:9966/petclinic/api/pets/5136,0,0,0
+1643567365584,5,GET /api/pets/5136,200,,PET CLINIC SUITES 1-17,text,true,,591,180,1,1,http://localhost:9966/petclinic/api/pets/5136,5,0,0
+1643567365594,5,POST /api/specialties,201,,PET CLINIC SUITES 1-17,text,true,,410,276,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1643567365600,10,GET /api/specialties,200,,PET CLINIC SUITES 1-17,text,true,,47881,182,1,1,http://localhost:9966/petclinic/api/specialties,9,0,0
+1643567365629,6,PUT /api/specialties/4405,204,,PET CLINIC SUITES 1-17,text,true,,282,288,2,2,http://localhost:9966/petclinic/api/specialties/4405,0,0,0
+1643567365636,7,GET /api/specialties/4405,200,,PET CLINIC SUITES 1-17,text,true,,361,187,2,2,http://localhost:9966/petclinic/api/specialties/4405,7,0,0
+1643567365636,12,POST /api/pettypes,201,,PET CLINIC SUITES 1-18,text,true,,400,265,2,2,http://localhost:9966/petclinic/api/pettypes,12,0,2
+1643567365649,8,POST /api/vets,201,,PET CLINIC SUITES 1-17,text,true,,471,360,2,2,http://localhost:9966/petclinic/api/vets,8,0,0
+1643567365658,19,GET /api/vets,200,,PET CLINIC SUITES 1-17,text,true,,16190,175,2,2,http://localhost:9966/petclinic/api/vets,19,0,0
+1643567365649,12,GET /api/pettypes,200,,PET CLINIC SUITES 1-18,text,true,,25388,179,2,2,http://localhost:9966/petclinic/api/pettypes,12,0,0
+1643567365686,8,PUT /api/pettypes/2955,204,,PET CLINIC SUITES 1-18,text,true,,282,277,2,2,http://localhost:9966/petclinic/api/pettypes/2955,0,0,0
+1643567365686,8,PUT /api/vets/1222,204,,PET CLINIC SUITES 1-17,text,true,,282,380,2,2,http://localhost:9966/petclinic/api/vets/1222,0,0,0
+1643567365694,6,GET /api/pettypes/2955,200,,PET CLINIC SUITES 1-18,text,true,,353,184,2,2,http://localhost:9966/petclinic/api/pettypes/2955,5,0,0
+1643567365694,6,GET /api/vets/1222,200,,PET CLINIC SUITES 1-17,text,true,,453,180,2,2,http://localhost:9966/petclinic/api/vets/1222,5,0,0
+1643567365705,7,POST /api/owners,201,,PET CLINIC SUITES 1-18,text,true,,522,407,2,2,http://localhost:9966/petclinic/api/owners,7,0,0
+1643567365706,6,POST /api/visits,201,,PET CLINIC SUITES 1-17,text,true,,714,710,2,2,http://localhost:9966/petclinic/api/visits,6,0,0
+1643567365713,9,GET /api/visits,200,,PET CLINIC SUITES 1-17,text,true,,7273,177,2,2,http://localhost:9966/petclinic/api/visits,9,0,0
+1643567365713,12,GET /api/owners,200,,PET CLINIC SUITES 1-18,text,true,,24275,177,2,2,http://localhost:9966/petclinic/api/owners,12,0,0
+1643567365727,7,PUT /api/visits/5077,204,,PET CLINIC SUITES 1-17,text,true,,282,722,2,2,http://localhost:9966/petclinic/api/visits/5077,0,0,0
+1643567365730,5,GET /api/owners/*/lastname/Testev7786,200,,PET CLINIC SUITES 1-18,text,true,,465,199,2,2,http://localhost:9966/petclinic/api/owners/*/lastname/Testev7786,5,0,0
+1643567365734,8,GET /api/visits/5077,200,,PET CLINIC SUITES 1-17,text,true,,672,182,2,2,http://localhost:9966/petclinic/api/visits/5077,8,0,0
+1643567365743,7,PUT /api/owners/5137,204,,PET CLINIC SUITES 1-18,text,true,,282,430,2,2,http://localhost:9966/petclinic/api/owners/5137,0,0,0
+1643567365748,7,DELETE /api/visits/5077,204,,PET CLINIC SUITES 1-17,,true,,236,268,2,2,http://localhost:9966/petclinic/api/visits/5077,0,0,0
+1643567365751,6,GET /api/owners/5137,200,,PET CLINIC SUITES 1-18,text,true,,479,182,2,2,http://localhost:9966/petclinic/api/owners/5137,6,0,0
+1643567365755,7,DELETE /api/pets/5136,204,,PET CLINIC SUITES 1-17,,true,,236,266,2,2,http://localhost:9966/petclinic/api/pets/5136,0,0,0
+1643567365762,4,DELETE /api/owners/5136,204,,PET CLINIC SUITES 1-17,,true,,236,268,2,2,http://localhost:9966/petclinic/api/owners/5136,0,0,0
+1643567365761,5,POST /api/pets,201,,PET CLINIC SUITES 1-18,text,true,,630,589,2,2,http://localhost:9966/petclinic/api/pets,5,0,0
+1643567365767,7,DELETE /api/pettypes/2954,204,,PET CLINIC SUITES 1-17,,true,,236,270,2,2,http://localhost:9966/petclinic/api/pettypes/2954,0,0,0
+1643567365775,6,DELETE /api/vets/1222,204,,PET CLINIC SUITES 1-17,,true,,236,266,2,2,http://localhost:9966/petclinic/api/vets/1222,0,0,0
+1643567365767,14,GET /api/pets,200,,PET CLINIC SUITES 1-18,text,true,,15967,175,2,2,http://localhost:9966/petclinic/api/pets,14,0,0
+1643567365781,8,DELETE /api/specialties/4405,204,,PET CLINIC SUITES 1-17,,true,,236,273,2,2,http://localhost:9966/petclinic/api/specialties/4405,0,0,0
+1643567365788,8,PUT /api/pets/5137,204,,PET CLINIC SUITES 1-18,text,true,,282,749,1,1,http://localhost:9966/petclinic/api/pets/5137,0,0,0
+1643567365796,6,GET /api/pets/5137,200,,PET CLINIC SUITES 1-18,text,true,,591,180,1,1,http://localhost:9966/petclinic/api/pets/5137,6,0,0
+1643567365807,5,POST /api/specialties,201,,PET CLINIC SUITES 1-18,text,true,,410,276,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1643567365812,9,GET /api/specialties,200,,PET CLINIC SUITES 1-18,text,true,,47881,182,1,1,http://localhost:9966/petclinic/api/specialties,8,0,0
+1643567365836,7,PUT /api/specialties/4406,204,,PET CLINIC SUITES 1-18,text,true,,282,288,1,1,http://localhost:9966/petclinic/api/specialties/4406,0,0,0
+1643567365844,4,GET /api/specialties/4406,200,,PET CLINIC SUITES 1-18,text,true,,361,187,1,1,http://localhost:9966/petclinic/api/specialties/4406,4,0,0
+1643567365853,5,POST /api/vets,201,,PET CLINIC SUITES 1-18,text,true,,471,360,1,1,http://localhost:9966/petclinic/api/vets,5,0,0
+1643567365859,8,GET /api/vets,200,,PET CLINIC SUITES 1-18,text,true,,16190,175,1,1,http://localhost:9966/petclinic/api/vets,8,0,0
+1643567365876,5,PUT /api/vets/1223,204,,PET CLINIC SUITES 1-18,text,true,,282,380,2,2,http://localhost:9966/petclinic/api/vets/1223,0,0,0
+1643567365879,9,POST /api/pettypes,201,,PET CLINIC SUITES 1-19,text,true,,400,265,2,2,http://localhost:9966/petclinic/api/pettypes,9,0,2
+1643567365882,6,GET /api/vets/1223,200,,PET CLINIC SUITES 1-18,text,true,,453,180,2,2,http://localhost:9966/petclinic/api/vets/1223,6,0,0
+1643567365893,7,POST /api/visits,201,,PET CLINIC SUITES 1-18,text,true,,714,710,2,2,http://localhost:9966/petclinic/api/visits,7,0,0
+1643567365889,8,GET /api/pettypes,200,,PET CLINIC SUITES 1-19,text,true,,25388,179,2,2,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1643567365907,7,PUT /api/pettypes/2956,204,,PET CLINIC SUITES 1-19,text,true,,282,277,2,2,http://localhost:9966/petclinic/api/pettypes/2956,0,0,0
+1643567365901,9,GET /api/visits,200,,PET CLINIC SUITES 1-18,text,true,,7273,177,2,2,http://localhost:9966/petclinic/api/visits,8,0,0
+1643567365915,5,PUT /api/visits/5078,204,,PET CLINIC SUITES 1-18,text,true,,282,722,2,2,http://localhost:9966/petclinic/api/visits/5078,0,0,0
+1643567365914,5,GET /api/pettypes/2956,200,,PET CLINIC SUITES 1-19,text,true,,353,184,2,2,http://localhost:9966/petclinic/api/pettypes/2956,4,0,0
+1643567365923,4,POST /api/owners,201,,PET CLINIC SUITES 1-19,text,true,,522,407,2,2,http://localhost:9966/petclinic/api/owners,4,0,0
+1643567365920,5,GET /api/visits/5078,200,,PET CLINIC SUITES 1-18,text,true,,672,182,2,2,http://localhost:9966/petclinic/api/visits/5078,5,0,0
+1643567365930,6,DELETE /api/visits/5078,204,,PET CLINIC SUITES 1-18,,true,,236,268,2,2,http://localhost:9966/petclinic/api/visits/5078,0,0,0
+1643567365937,7,DELETE /api/pets/5137,204,,PET CLINIC SUITES 1-18,,true,,236,266,2,2,http://localhost:9966/petclinic/api/pets/5137,0,0,0
+1643567365928,13,GET /api/owners,200,,PET CLINIC SUITES 1-19,text,true,,24283,177,2,2,http://localhost:9966/petclinic/api/owners,13,0,0
+1643567365945,6,DELETE /api/owners/5137,204,,PET CLINIC SUITES 1-18,,true,,236,268,2,2,http://localhost:9966/petclinic/api/owners/5137,0,0,0
+1643567365947,6,GET /api/owners/*/lastname/Testev8592,200,,PET CLINIC SUITES 1-19,text,true,,465,199,2,2,http://localhost:9966/petclinic/api/owners/*/lastname/Testev8592,6,0,0
+1643567365952,10,DELETE /api/pettypes/2955,204,,PET CLINIC SUITES 1-18,,true,,236,270,2,2,http://localhost:9966/petclinic/api/pettypes/2955,0,0,0
+1643567365961,7,PUT /api/owners/5138,204,,PET CLINIC SUITES 1-19,text,true,,282,430,2,2,http://localhost:9966/petclinic/api/owners/5138,0,0,0
+1643567365962,6,DELETE /api/vets/1223,204,,PET CLINIC SUITES 1-18,,true,,236,266,2,2,http://localhost:9966/petclinic/api/vets/1223,0,0,0
+1643567365968,7,DELETE /api/specialties/4406,204,,PET CLINIC SUITES 1-18,,true,,236,273,2,2,http://localhost:9966/petclinic/api/specialties/4406,0,0,0
+1643567365968,6,GET /api/owners/5138,200,,PET CLINIC SUITES 1-19,text,true,,479,182,2,2,http://localhost:9966/petclinic/api/owners/5138,6,0,0
+1643567365981,6,POST /api/pets,201,,PET CLINIC SUITES 1-19,text,true,,630,589,1,1,http://localhost:9966/petclinic/api/pets,6,0,0
+1643567365987,11,GET /api/pets,200,,PET CLINIC SUITES 1-19,text,true,,15967,175,1,1,http://localhost:9966/petclinic/api/pets,11,0,0
+1643567366004,7,PUT /api/pets/5138,204,,PET CLINIC SUITES 1-19,text,true,,282,749,1,1,http://localhost:9966/petclinic/api/pets/5138,0,0,0
+1643567366011,5,GET /api/pets/5138,200,,PET CLINIC SUITES 1-19,text,true,,591,180,1,1,http://localhost:9966/petclinic/api/pets/5138,5,0,0
+1643567366020,5,POST /api/specialties,201,,PET CLINIC SUITES 1-19,text,true,,410,276,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1643567366026,10,GET /api/specialties,200,,PET CLINIC SUITES 1-19,text,true,,47881,182,1,1,http://localhost:9966/petclinic/api/specialties,10,0,0
+1643567366051,6,PUT /api/specialties/4407,204,,PET CLINIC SUITES 1-19,text,true,,282,288,1,1,http://localhost:9966/petclinic/api/specialties/4407,0,0,0
+1643567366057,5,GET /api/specialties/4407,200,,PET CLINIC SUITES 1-19,text,true,,361,187,1,1,http://localhost:9966/petclinic/api/specialties/4407,5,0,0
+1643567366068,6,POST /api/vets,201,,PET CLINIC SUITES 1-19,text,true,,471,360,1,1,http://localhost:9966/petclinic/api/vets,6,0,0
+1643567366074,10,GET /api/vets,200,,PET CLINIC SUITES 1-19,text,true,,16190,175,1,1,http://localhost:9966/petclinic/api/vets,10,0,0
+1643567366092,5,PUT /api/vets/1224,204,,PET CLINIC SUITES 1-19,text,true,,282,380,1,1,http://localhost:9966/petclinic/api/vets/1224,0,0,0
+1643567366097,3,GET /api/vets/1224,200,,PET CLINIC SUITES 1-19,text,true,,453,180,1,1,http://localhost:9966/petclinic/api/vets/1224,3,0,0
+1643567366103,5,POST /api/visits,201,,PET CLINIC SUITES 1-19,text,true,,714,710,1,1,http://localhost:9966/petclinic/api/visits,4,0,0
+1643567366108,7,GET /api/visits,200,,PET CLINIC SUITES 1-19,text,true,,7273,177,1,1,http://localhost:9966/petclinic/api/visits,7,0,0
+1643567366119,5,PUT /api/visits/5079,204,,PET CLINIC SUITES 1-19,text,true,,282,722,1,1,http://localhost:9966/petclinic/api/visits/5079,0,0,0
+1643567366124,3,GET /api/visits/5079,200,,PET CLINIC SUITES 1-19,text,true,,672,182,1,1,http://localhost:9966/petclinic/api/visits/5079,3,0,0
+1643567366130,4,DELETE /api/visits/5079,204,,PET CLINIC SUITES 1-19,,true,,236,268,1,1,http://localhost:9966/petclinic/api/visits/5079,0,0,0
+1643567366135,3,DELETE /api/pets/5138,204,,PET CLINIC SUITES 1-19,,true,,236,266,1,1,http://localhost:9966/petclinic/api/pets/5138,0,0,0
+1643567366139,3,DELETE /api/owners/5138,204,,PET CLINIC SUITES 1-19,,true,,236,268,1,1,http://localhost:9966/petclinic/api/owners/5138,0,0,0
+1643567366142,4,DELETE /api/pettypes/2956,204,,PET CLINIC SUITES 1-19,,true,,236,270,1,1,http://localhost:9966/petclinic/api/pettypes/2956,0,0,0
+1643567366147,2,DELETE /api/vets/1224,204,,PET CLINIC SUITES 1-19,,true,,236,266,1,1,http://localhost:9966/petclinic/api/vets/1224,0,0,0
+1643567366149,4,DELETE /api/specialties/4407,204,,PET CLINIC SUITES 1-19,,true,,236,273,2,2,http://localhost:9966/petclinic/api/specialties/4407,0,0,0
+1643567366153,5,POST /api/pettypes,201,,PET CLINIC SUITES 1-20,text,true,,400,265,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,1
+1643567366158,6,GET /api/pettypes,200,,PET CLINIC SUITES 1-20,text,true,,25355,179,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1643567366171,4,PUT /api/pettypes/2957,204,,PET CLINIC SUITES 1-20,text,true,,282,277,1,1,http://localhost:9966/petclinic/api/pettypes/2957,0,0,0
+1643567366175,3,GET /api/pettypes/2957,200,,PET CLINIC SUITES 1-20,text,true,,353,184,1,1,http://localhost:9966/petclinic/api/pettypes/2957,3,0,0
+1643567366181,3,POST /api/owners,201,,PET CLINIC SUITES 1-20,text,true,,522,407,1,1,http://localhost:9966/petclinic/api/owners,3,0,0
+1643567366184,7,GET /api/owners,200,,PET CLINIC SUITES 1-20,text,true,,23902,177,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1643567366194,4,GET /api/owners/*/lastname/Testev6715,200,,PET CLINIC SUITES 1-20,text,true,,465,199,1,1,http://localhost:9966/petclinic/api/owners/*/lastname/Testev6715,4,0,0
+1643567366201,4,PUT /api/owners/5139,204,,PET CLINIC SUITES 1-20,text,true,,282,430,1,1,http://localhost:9966/petclinic/api/owners/5139,0,0,0
+1643567366205,3,GET /api/owners/5139,200,,PET CLINIC SUITES 1-20,text,true,,479,182,1,1,http://localhost:9966/petclinic/api/owners/5139,3,0,0
+1643567366211,4,POST /api/pets,201,,PET CLINIC SUITES 1-20,text,true,,630,589,1,1,http://localhost:9966/petclinic/api/pets,4,0,0
+1643567366216,6,GET /api/pets,200,,PET CLINIC SUITES 1-20,text,true,,15967,175,1,1,http://localhost:9966/petclinic/api/pets,6,0,0
+1643567366225,4,PUT /api/pets/5139,204,,PET CLINIC SUITES 1-20,text,true,,282,749,1,1,http://localhost:9966/petclinic/api/pets/5139,0,0,0
+1643567366229,3,GET /api/pets/5139,200,,PET CLINIC SUITES 1-20,text,true,,591,180,1,1,http://localhost:9966/petclinic/api/pets/5139,3,0,0
+1643567366237,3,POST /api/specialties,201,,PET CLINIC SUITES 1-20,text,true,,410,276,1,1,http://localhost:9966/petclinic/api/specialties,3,0,0
+1643567366241,5,GET /api/specialties,200,,PET CLINIC SUITES 1-20,text,true,,47881,182,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1643567366254,4,PUT /api/specialties/4408,204,,PET CLINIC SUITES 1-20,text,true,,282,288,1,1,http://localhost:9966/petclinic/api/specialties/4408,0,0,0
+1643567366258,3,GET /api/specialties/4408,200,,PET CLINIC SUITES 1-20,text,true,,361,187,1,1,http://localhost:9966/petclinic/api/specialties/4408,3,0,0
+1643567366264,5,POST /api/vets,201,,PET CLINIC SUITES 1-20,text,true,,471,360,1,1,http://localhost:9966/petclinic/api/vets,5,0,0
+1643567366269,8,GET /api/vets,200,,PET CLINIC SUITES 1-20,text,true,,16190,175,1,1,http://localhost:9966/petclinic/api/vets,7,0,0
+1643567366285,3,PUT /api/vets/1225,204,,PET CLINIC SUITES 1-20,text,true,,282,380,1,1,http://localhost:9966/petclinic/api/vets/1225,0,0,0
+1643567366289,2,GET /api/vets/1225,200,,PET CLINIC SUITES 1-20,text,true,,453,180,1,1,http://localhost:9966/petclinic/api/vets/1225,2,0,0
+1643567366296,3,POST /api/visits,201,,PET CLINIC SUITES 1-20,text,true,,714,710,1,1,http://localhost:9966/petclinic/api/visits,3,0,0
+1643567366299,5,GET /api/visits,200,,PET CLINIC SUITES 1-20,text,true,,7273,177,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1643567366308,3,PUT /api/visits/5080,204,,PET CLINIC SUITES 1-20,text,true,,282,722,1,1,http://localhost:9966/petclinic/api/visits/5080,0,0,0
+1643567366311,4,GET /api/visits/5080,200,,PET CLINIC SUITES 1-20,text,true,,672,182,1,1,http://localhost:9966/petclinic/api/visits/5080,4,0,0
+1643567366317,4,DELETE /api/visits/5080,204,,PET CLINIC SUITES 1-20,,true,,236,268,1,1,http://localhost:9966/petclinic/api/visits/5080,0,0,0
+1643567366321,3,DELETE /api/pets/5139,204,,PET CLINIC SUITES 1-20,,true,,236,266,1,1,http://localhost:9966/petclinic/api/pets/5139,0,0,0
+1643567366324,2,DELETE /api/owners/5139,204,,PET CLINIC SUITES 1-20,,true,,236,268,1,1,http://localhost:9966/petclinic/api/owners/5139,0,0,0
+1643567366327,3,DELETE /api/pettypes/2957,204,,PET CLINIC SUITES 1-20,,true,,236,270,1,1,http://localhost:9966/petclinic/api/pettypes/2957,0,0,0
+1643567366330,2,DELETE /api/vets/1225,204,,PET CLINIC SUITES 1-20,,true,,236,266,1,1,http://localhost:9966/petclinic/api/vets/1225,0,0,0
+1643567366333,2,DELETE /api/specialties/4408,204,,PET CLINIC SUITES 1-20,,true,,236,273,1,1,http://localhost:9966/petclinic/api/specialties/4408,0,0,0
